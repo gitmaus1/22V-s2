@@ -1,18 +1,18 @@
-/* CSS Grind  */
+/* CSS boilerplate  */
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
-- Smooth Scroll
-- Base Styles 
-- Typography 
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Images
-- Media Queries
+  - Smooth Scroll
+  - Base Styles 
+  - Typography 
+  - Links
+  - Buttons
+  - Forms
+  - Lists
+  - Code
+  - Tables
+  - Images
+  - Media Queries
 */
 
 html {
@@ -286,5 +286,5 @@ figure {
 @media screen and (min-width: 60em) {}
 */
 /* Larger than Desktop HD 
-@media screen and (min-width: 80em) {}
+@media screen and (min-width: 100em) {}
 */
