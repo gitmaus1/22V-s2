@@ -2,6 +2,8 @@
 
 * [Sérsniðin eigindi](variables.html) 
 * [Eiginda-veljari - Attribute Selectors](attributes.html)
+* [Moz:lla, CSS eigindi - CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+* [Shayhowe, Flóknar stílsetningar - Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/)
 
 #### Þjöppun CSS kóða
 
