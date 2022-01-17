@@ -1,9 +1,6 @@
-# CSS grunnform - _CSS boilerplate_
+# CSS skipulag
 
 ### Markmið:
-Nemendur öðlast skilning á skipulagningu stílsíðukerfis og á hönnun CSS grunnsíðu (_Boilerplate_)  til að hanna betri vefsíður.
+Nemendur öðlast skilning á hönnun CSS grunnsíðu (_Boilerplate_).
 
-* [Verkefnalýsing](21h_verkefni_1.pdf)
-* [Fylgigögn](https://github.com/vefhonnun/21H/tree/main/S%C3%BDnid%C3%A6mi/V-1)
-
-#### Einkunn verður birt í Innu
+Meðfylgjandi er CSS grunnur (boilerplate) sem þú getur hlaðið á þína tölvu og notað til að hanna frábærar vefsíður :smile:
