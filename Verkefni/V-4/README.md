@@ -9,7 +9,7 @@ Nemendur eiga að öðlast skilning á hvernig hægt er að nota breytur og aðr
 
 #### Verkefnaskil:   Öllum gögnum er skilað í Github áfangageymsluna	
 
-* [Verkefnalýsing](https://github.com/vefhonnun/21H/blob/main/Verkefni/V-4/21h_verkefni_4.pdf)
-* [Fylgigögn](https://github.com/vefhonnun/21H/tree/main/S%C3%BDnid%C3%A6mi/V-4/)
+* [Verkefnalýsing](https://github.com/vefhonnun/22V/blob/main/Verkefni/V-4/22v_verkefni_4.pdf)
+* [Fylgigögn](https://github.com/vefhonnun/22V/tree/main/S%C3%BDnid%C3%A6mi/V-4/)
 
 #### Einkunn verður birt í Innu
