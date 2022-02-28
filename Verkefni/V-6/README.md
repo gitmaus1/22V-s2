@@ -74,12 +74,12 @@ Dæmi:
 
 Útfærslan er í ykkar höndum, það má nota hvaða hugbúnað sem er t.d InkScape, Photoshop, InDesign ofl.
 
-#### Námsmat 14% af heildareinkunn
+#### Námsmat 12% af heildareinkunn
 
-* Skipulagsvinna í Github _Project_  3%
-* Flæði - _Wireframe_     3%
+* Skipulagsvinna í Github _Project_  2%
+* Flæði - _Wireframe_     2%
 * Frumgerð - _Prototype_     8%
 
-#### Verkefnaskil: Öllum vinnugögnum er skilað í áfangageymsluna 
+#### Verkefnaskil: Öllum vinnugögnum er skilað í skilahólf í Innu 
 
 #### Einkunn verður birt í Innu
