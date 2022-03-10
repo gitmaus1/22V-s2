@@ -37,9 +37,7 @@ while svar == "já" or svar == "Já":
         za10 = int(input("Sláðu inn 10 tölu: "))
         print("summa:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10))
         print("meðaltal:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10)/2)
-        svar = "já"
-        #FFF
-    if val == 2:
+    elif val == 2:
         dur= int(input("tala:"))
 
         if dur % 2 == 0:
@@ -50,19 +48,26 @@ while svar == "já" or svar == "Já":
     #    print("Þú ætlar að reikna ummál hrings.")
     #    radius = int(input("Sláðu inn radíus hringins: "))
     #    print("Ummálið er: ", 2*radius*3.14)
-    if val == 3:
-        print("Þú ætlar að hætta takk fyrir að nota forritið.")
-        svar = "nei"
-    print(range(11*"Ég er frábær forritari"))
+    elif val == 3:
+        for d in range(11):
+         print(d*"Ég er ekki forritari")
+         svar = "nei"
+    else:
+     print("willa") 
+        
+    
+
+    
 
 
 
-aldur= int(input("tala:"))
 
-if aldur % 2 == 0:
-    print("slet tala og þú ert")
-else:
-    print("ódatala og þú ert")
+#aldur= int(input("tala:"))
+
+#if aldur % 2 == 0:
+#    print("slet tala og þú ert")
+#else:
+#    print("ódatala og þú ert")
 
 
 
