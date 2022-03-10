@@ -3,16 +3,28 @@ from random import*
 from tkinter import END
 ##########################################################################################################
 #exp
+
+#dur= int(input("tala:"))
+
+#if dur % 2 == 0:
+#          print("slet tala ")
+#else:
+#          print("odatala ")
+
+
+
+
+
 svar = "já"
 while svar == "já" or svar == "Já":
-    print("Sláðu inn 1 til að reikna flatarmál rétthyrnings:")
-    print("Sláðu inn 2 til að reikna flatarmál hrings:")
-    print("Sláðu inn 3 til að reikna ummál hrings:")
-    print("Sláðu inn 4 til að stöðva keyrslu forrits:")
+    print("Sláðu inn 1 til að reikna summu og meðaltal:")
+    print("Sláðu inn 2 til að jöfntala eða oddatala:")
+   # print("Sláðu inn 3 til að reikna ummál hrings:")
+    print("Sláðu inn 3 til að stöðva keyrslu forrits:")
     val = int(input(": "))
 
     if val == 1:
-        print("Þú ætlar að reikna flatarmál rétthyrnings.")
+        print("Þú gefur mér 10 tölur")
         za1 = int(input("Sláðu inn 1 tölu: "))
         za2 = int(input("Sláðu inn 2 tölu: "))
         za3 = int(input("Sláðu inn 3 tölu: "))
@@ -25,24 +37,32 @@ while svar == "já" or svar == "Já":
         za10 = int(input("Sláðu inn 10 tölu: "))
         print("summa:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10))
         print("meðaltal:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10)/2)
-
+        svar = "já"
         #FFF
     if val == 2:
-        print("Þú ætlar að reikna flatarmál hrings.")
-        radius = int(input("Sláðu inn radíus hringins: "))
-        print("Flatarmálið er: ", radius*radius*3.14)
+        dur= int(input("tala:"))
+
+        if dur % 2 == 0:
+          print("slet tala ")
+        else:
+          print("odatala ")
+    #if val == 3:
+    #    print("Þú ætlar að reikna ummál hrings.")
+    #    radius = int(input("Sláðu inn radíus hringins: "))
+    #    print("Ummálið er: ", 2*radius*3.14)
     if val == 3:
-        print("Þú ætlar að reikna ummál hrings.")
-        radius = int(input("Sláðu inn radíus hringins: "))
-        print("Ummálið er: ", 2*radius*3.14)
-    if val == 4:
         print("Þú ætlar að hætta takk fyrir að nota forritið.")
         svar = "nei"
-    print()
+    print(range(11*"Ég er frábær forritari"))
 
 
 
+aldur= int(input("tala:"))
 
+if aldur % 2 == 0:
+    print("slet tala og þú ert")
+else:
+    print("ódatala og þú ert")
 
 
 
