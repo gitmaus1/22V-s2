@@ -14,7 +14,7 @@ from tkinter import END
 
 
 
-
+ddddddd=0
 svar = "já"
 while svar == "já" or svar == "Já":
     print("Sláðu inn 1 til að reikna summu og meðaltal:")
@@ -22,8 +22,10 @@ while svar == "já" or svar == "Já":
    # print("Sláðu inn 3 til að reikna ummál hrings:")
     print("Sláðu inn 3 til að stöðva keyrslu forrits:")
     val = int(input(": "))
+    aaaaaa=ddddddd+1
 
     if val == 1:
+        
         print("Þú gefur mér 10 tölur")
         za1 = int(input("Sláðu inn 1 tölu: "))
         za2 = int(input("Sláðu inn 2 tölu: "))
@@ -38,6 +40,8 @@ while svar == "já" or svar == "Já":
         print("summa:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10))
         print("meðaltal:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10)/2)
     elif val == 2:
+        
+
         dur= int(input("tala:"))
 
         if dur % 2 == 0:
@@ -52,8 +56,10 @@ while svar == "já" or svar == "Já":
         for d in range(11):
          print(d*"Ég er ekki forritari")
          svar = "nei"
+         print(aaaaaa)
     else:
      print("willa") 
+print(aaaaaa)
         
     
 
@@ -332,3 +338,40 @@ print("=",margf)
 ############################################################################################################
 #svar 6
 
+
+svar = "já"
+while svar == "já" or svar == "Já":
+    print("Sláðu inn 1 til að reikna summu og meðaltal:")
+    print("Sláðu inn 2 til að jöfntala eða oddatala:")
+    print("Sláðu inn 3 til að stöðva keyrslu forrits:")
+    val = int(input(": "))
+
+    if val == 1:
+        print("Þú gefur mér 10 tölur")
+        za1 = int(input("Sláðu inn 1 tölu: "))
+        za2 = int(input("Sláðu inn 2 tölu: "))
+        za3 = int(input("Sláðu inn 3 tölu: "))
+        za4 = int(input("Sláðu inn 4 tölu: "))
+        za5 = int(input("Sláðu inn 5 tölu: "))
+        za6 = int(input("Sláðu inn 6 tölu: "))
+        za7 = int(input("Sláðu inn 7 tölu: "))
+        za8 = int(input("Sláðu inn 8 tölu: "))
+        za9 = int(input("Sláðu inn 9 tölu: "))
+        za10 = int(input("Sláðu inn 10 tölu: "))
+        print("summa:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10))
+        print("meðaltal:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10)/2)
+    elif val == 2:
+        dur= int(input("tala:"))
+
+        if dur % 2 == 0:
+          print("slet tala ")
+        else:
+          print("odatala ")
+
+    elif val == 3:
+        for d in range(11):
+         print(d*"Ég er ekki forritari")
+         svar = "nei"
+    else:
+     print("willa") 
+        
