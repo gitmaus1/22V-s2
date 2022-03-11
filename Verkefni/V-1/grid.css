@@ -9,9 +9,8 @@
 .col-5,
 .col-6 {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   row-gap: 1em;
-  
 }
 .container {
   padding:1em;
@@ -23,16 +22,6 @@
 .rammi div{
   border: 1px dotted;
   text-align: center;
-
-
-
-
-
-  display: none;
-
-
-
-  
 }
 
 
