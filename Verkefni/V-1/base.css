@@ -251,7 +251,27 @@ html {
   img {
     max-width: 100%;
     height: auto;
+    
   }
+
+
+
+  .containerer{
+      display: none;
+  }
+
+  .img1{
+    display: none;
+}
+  .img2{
+      display: none;
+  }
+
+
+
+
+
+
   figure {
     margin: 0;
   }
