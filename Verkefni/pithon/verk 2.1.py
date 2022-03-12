@@ -14,52 +14,54 @@ from tkinter import END
 
 
 
-ddddddd=0
-svar = "já"
-while svar == "já" or svar == "Já":
-    print("Sláðu inn 1 til að reikna summu og meðaltal:")
-    print("Sláðu inn 2 til að jöfntala eða oddatala:")
+#ddddddd=0
+#svar = "já"
+#while svar == "já" or svar == "Já" :
+#    ddddddd += 1
+#    print("Sláðu inn 1 til að reikna summu og meðaltal:")
+#    print("Sláðu inn 2 til að jöfntala eða oddatala:")
    # print("Sláðu inn 3 til að reikna ummál hrings:")
-    print("Sláðu inn 3 til að stöðva keyrslu forrits:")
-    val = int(input(": "))
-    aaaaaa=ddddddd+1
+#    print("Sláðu inn 3 til að stöðva keyrslu forrits:")
+#    val = int(input(": "))
+    
 
-    if val == 1:
-        
-        print("Þú gefur mér 10 tölur")
-        za1 = int(input("Sláðu inn 1 tölu: "))
-        za2 = int(input("Sláðu inn 2 tölu: "))
-        za3 = int(input("Sláðu inn 3 tölu: "))
-        za4 = int(input("Sláðu inn 4 tölu: "))
-        za5 = int(input("Sláðu inn 5 tölu: "))
-        za6 = int(input("Sláðu inn 6 tölu: "))
-        za7 = int(input("Sláðu inn 7 tölu: "))
-        za8 = int(input("Sláðu inn 8 tölu: "))
-        za9 = int(input("Sláðu inn 9 tölu: "))
-        za10 = int(input("Sláðu inn 10 tölu: "))
-        print("summa:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10))
-        print("meðaltal:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10)/2)
-    elif val == 2:
-        
+ #   if val == 1:
+ #      # ddddddd +=1
+  #      print("Þú gefur mér 10 tölur")
+   #     za1 = int(input("Sláðu inn 1 tölu: "))
+    #    za2 = int(input("Sláðu inn 2 tölu: "))
+#        za3 = int(input("Sláðu inn 3 tölu: "))
+ #       za4 = int(input("Sláðu inn 4 tölu: "))
+  #      za5 = int(input("Sláðu inn 5 tölu: "))
+   #     za6 = int(input("Sláðu inn 6 tölu: "))
+    #    za7 = int(input("Sláðu inn 7 tölu: "))
+     #   za8 = int(input("Sláðu inn 8 tölu: "))
+      #  za9 = int(input("Sláðu inn 9 tölu: "))
+       # za10 = int(input("Sláðu inn 10 tölu: "))
+        #print("summa:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10))
+#        print("meðaltal:",(za1+za2+za3+za4+za5+za6+za7+za8+za9+za10)/2)
+ #   elif val == 2:
+        #ddddddd +=1
 
-        dur= int(input("tala:"))
+#        dur= int(input("tala:"))
 
-        if dur % 2 == 0:
-          print("slet tala ")
-        else:
-          print("odatala ")
+#        if dur % 2 == 0:
+ #         print("slet tala ")
+  #      else:
+   #       print("odatala ")
     #if val == 3:
     #    print("Þú ætlar að reikna ummál hrings.")
     #    radius = int(input("Sláðu inn radíus hringins: "))
     #    print("Ummálið er: ", 2*radius*3.14)
-    elif val == 3:
-        for d in range(11):
-         print(d*"Ég er ekki forritari")
-         svar = "nei"
-         print(aaaaaa)
-    else:
-     print("willa") 
-print(aaaaaa)
+ #   elif val == 3:
+       # ddddddd +=1
+  #      for d in range(11):
+   #      print(d*"Ég er ekki forritari")
+    #     svar = "nei"
+         
+#    else:
+ #    print("willa") 
+#print("valmyndin var keyrð",ddddddd)
         
     
 
@@ -338,9 +340,10 @@ print("=",margf)
 ############################################################################################################
 #svar 6
 
-
+ddddddd=0
 svar = "já"
 while svar == "já" or svar == "Já":
+    ddddddd += 1
     print("Sláðu inn 1 til að reikna summu og meðaltal:")
     print("Sláðu inn 2 til að jöfntala eða oddatala:")
     print("Sláðu inn 3 til að stöðva keyrslu forrits:")
@@ -370,8 +373,8 @@ while svar == "já" or svar == "Já":
 
     elif val == 3:
         for d in range(11):
-         print(d*"Ég er ekki forritari")
+         print(d*"er ekki frábær forritari")
          svar = "nei"
     else:
      print("willa") 
-        
+print("valmyndin var keyrð",ddddddd)
