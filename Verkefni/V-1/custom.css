@@ -54,7 +54,10 @@
     top: 4em;
     right: .4em;
 }
-
+.back{
+    background-image: url("images/values-bg.jpg");
+    background-color: #cccccc;
+}
 @media screen and (min-width:3px){
     .taki{
         
