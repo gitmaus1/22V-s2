@@ -13,8 +13,8 @@
     image-orientation: 50deg;
     border-image-width: auto;
     rotate: 12deg;
-    
-    
+    transform: rotate(20deg);
+    max-width: 300px;
 
 }
 .footer{
@@ -23,12 +23,13 @@
     font-family: 'Open Sans', sans-serif;
     /*background-color: #1d52c5;*/
     color: rgb(255,255,255);
-    background-image: linear-gradient(to right,#2a9215,#28461d);
+    background-image: linear-gradient(to right,#0f1d6e,#2e656e);
     margin: 0;
+    display: grid;
 }
 .footnav{
     list-style-type: none;
-    color: rgb(248, 221, 170);
+    color: rgb(255, 255, 255);
    
 }
 .footnav a{
@@ -52,4 +53,35 @@
     position: fixed;
     top: 4em;
     right: .4em;
+}
+
+@media screen and (min-width:3px){
+    .taki{
+        
+        padding: 0 .4em;
+        font-size: 2em;
+        top: auto;
+        bottom: 1em;
+        right: 1em;
+    }
+}
+@media screen and (min-width:37.5em){
+    .taki{
+        
+        padding: 0 .4em;
+        font-size: 2em;
+        top: auto;
+        bottom: 1em;
+        right: 1em;
+    }
+}
+@media screen and (min-width:48em){
+    .taki{
+        
+        padding: 0 .4em;
+        font-size: 2em;
+        top: auto;
+        bottom: 1em;
+        right: 1em;
+    }
 }
