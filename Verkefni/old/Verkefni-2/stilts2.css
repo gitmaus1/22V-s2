@@ -1,0 +1,225 @@
+section.row{
+    margin: 5ex;
+    
+	display: flex;
+	flex-direction: row-reverse;
+	
+
+}
+.row div{
+	flex-grow: 1;
+}
+div.blar{
+
+background-color: blue;
+
+}
+div.graenn{
+
+background-color: green;
+	
+}
+div.raudur{
+
+background-color: red;
+}
+section.col{
+    display: flex;
+	flex-direction: column-reverse;
+}
+div.gulur{
+	background-color: gold;
+}
+
+p.box{
+    margin: 5ex;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+h2.athugid{
+
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    border: 1px solid rgb(73, 62, 95);
+	margin: 5px;
+	width: 815px;
+}
+p.pe{
+    
+	text-align: center;
+    border: 1px solid rgb(73, 62, 95);
+	margin: 5px;
+	width: 815px;
+
+}
+section.box{
+
+	border: 1px solid rgb(73, 62, 95);
+    
+	margin: 5px;
+	width: 400px;
+	
+
+
+}
+span.bigL{
+	display: flex;  
+  flex-wrap: wrap;
+	float: left;
+	line-height: 60px;
+    font-size: 50px;
+	width: 50px;
+    
+    margin-left: 10px;
+
+
+}
+div.group{
+
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+
+img.cat{
+	float: right;
+    margin: 10px;
+	width: 200px;
+	/*text-align: center;*/
+}
+
+
+
+ul {
+
+	
+	/*list-style-type: decimal;*/
+
+
+/*	margin: 5em ;
+	border: 1em dashed green;
+	padding: 5em;
+  */
+}
+ul li.q {
+	
+	padding: 1em;
+  border: 3px dashed  green;
+  margin: 1em;
+  
+  
+ /* width: 400px;*/
+  }
+
+  p.verk{
+
+	text-align: right;
+	background-color: lightgrey;
+
+  }
+ ul li.c{
+	
+	display:inline;
+	padding: 1em;
+	margin-top: 1em;
+	border:3px dashed blue;
+margin-bottom: 1em;
+margin: 1em;
+
+ }
+
+ul li.d{
+
+    display: block;
+    padding: 1em;
+    margin: 1em;
+	border: 3px dashed red;
+    display: inline-block;
+
+}
+
+
+
+
+div.step {
+	border: 5px solid rgb(255, 0, 0);
+
+	margin: 100px;
+/*  
+	align-content: center;
+border-radius: 100cm;
+border-top: 100cm;
+border-bottom: 100cm;
+border-width: 2cm;
+*/
+
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+}
+
+h1.a{
+
+
+    border-style: solid;
+border-width: 2px;
+border-color: green;
+
+}
+h1.b{
+
+border-style: dashed;
+border-width: 5px;
+border-color: blue;
+padding-top: 5px;
+padding-right: 30px;
+padding-bottom: 5px;
+padding-left: 30px;
+
+}
+
+
+
+  a:hover {
+	color: green
+	}
+	a:active{
+		color: darkgoldenrod;
+	}
+	
+
+#ad{
+color: brown;
+
+}
+
+
+#blu{
+color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+.fyrirsögn{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(208, 255, 0);
+    margin: 1em 1em 0 1em;
+    border-bottom: #888 solid 1px;
+    padding-bottom: 1em;
+}
+.topnav  {
+    grid-area: topnav;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    
+    background-color: cornsilk;
+    
+
+}
+.topnav a {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: .4em 0;
+}
+.header{
+    grid-area: header;
+    border-bottom:1px solid #fff;
+
+}
+.footnav a{
+    display: block;
+    border-bottom: 1px solid #888;
+    padding: .4em 0;
+    margin-left: 3em;
+}
+.footnav a:first-child {
+    padding-top: 1.4em;
+}
+
+.footnav li{
+    border-bottom: 1px solid #888;
+    padding: .4em 0;
+    list-style-type: none;
+}
+.footer{
+    border-top: 1px solid gray;
+    grid-area: footer;
+    
+}
+.footer li{
+    border-bottom: 1px solid #888;
+    padding: .4em 0;
+    list-style-type: none;
+}
+.block{
+    padding: .1em ;
+    border: 1px solid #888;
+}
+.as1{
+    grid-area: as1;
+}
+.as2{
+    grid-area: as2;
+}
+
+@media screen and (min-width:37.5em){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ 
+    .footer {
+        display: grid;
+        grid-template-columns:  1fr;
+        
+    }
+   
+}
+@media screen and (min-width:48em){
+    body{
+        grid-template-areas:"header" "topnav" "main" "footer" ;
+    }
+    .topnav{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        
+    }
+   .topnav a{
+       border: 0;
+   }
+   .fyrirsögn{
+       font-size: 2em;
+   }
+   .main{
+       grid-template-areas: "as2 article as1";
+       grid-template-columns: 1fr 2fr 1fr;
+   }
+   
+
+
+
+
+
+ 
+
+}
+@media screen and (min-width:60em){
+   
+    .fyrirsögn{
+        font-size: 3em;
+    }
+    .article{
+        padding-right: 2em;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+}
+

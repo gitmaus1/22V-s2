@@ -1,0 +1,59 @@
+
+@media screen and (min-width:25px ){
+    .vid{
+
+        width: 20em;
+        height: 10em;
+    }
+
+    
+}
+
+
+
+@media screen and (min-width:25em ){
+    .vid{
+
+        width: 23em;
+        height: 13em;
+    }
+
+    
+}
+@media screen and (min-width:30em ){
+    .vid{
+
+        width: 23em;
+        height: 13em;
+    }
+  
+    
+}
+@media screen and (min-width:37.5em ){
+    .vid{
+
+        width: 35em;
+        height: 19.7em;
+    }
+
+    
+}
+@media screen and (min-width:48em ){
+    .vid{
+
+        width: 46em;
+        height: 24.6em;
+    }
+ 
+    
+}
+@media screen and (min-width:60em ){
+    .vid{
+
+        width: 46em;
+        height: 24.6em;
+    }
+ 
+
+    
+}

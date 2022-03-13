@@ -1,0 +1,67 @@
+body {
+	max-width: 50em;
+	font-family: monospace;
+	font-size: 1.5em;
+	border: 1px;
+	padding: 1em;
+	margin: 1em auto;
+	border: 2px solid rgb(255, 0, 0);
+}
+h1 {
+	text-align: left;
+	color: green;
+}
+pre {
+	background-color: black;
+	color: white;
+	margin: 0 3em;
+	padding: 1em;
+}
+/* a: þarf að vera í réttri röð: a:link, a:visited, a:hover, a:active */
+a:hover {
+	color: green
+}
+a:visited {
+	color: #000;
+}
+a:hover, a:active {
+	color: darkgoldenrod;
+}
+/* ekki nota ID # í útlitshönnun - id er notað þegar vafrinn þarf að framkvæma sértækar aðgerðir */
+.ad {
+	color: brown;
+}
+.blu {
+	color: blue;
+}
+/* "text-align:left" er sjálfgefið í öllum vöfrum og þarf ekki að taka það fram */
+h2 {
+	text-align: left;
+	color: red;
+} 
+h3 {
+	text-align: left;
+}
+h4 {
+	text-align: left;
+}
+h5 {
+	text-align: left;
+}
+p {
+	text-align: left;
+}
+ul {
+    text-align: left;
+}
+li {
+    text-align:left;
+}
+/* ef sama skipun er sett á mörg tög þá er hægt að gera það svona
+
+h1, h2, h3, h4, h5, p, li {
+	color: blue;
+}
+*/
+
+
