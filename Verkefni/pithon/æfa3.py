@@ -16,3 +16,8 @@ if email[-3:] == ".is" and "@" in email:
     print("rétt íslenskt netfang")
 else:
     print("ekki rét netfang")
+njtrkrger=input("swap: ")
+print(njtrkrger.swapcase())
+kenitala= input("sláðu in kenitölu")
+#if kenitala[] == 
+#
