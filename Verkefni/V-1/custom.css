@@ -65,19 +65,20 @@
     background-image: url("images/values-bg.jpg");
     background-color: #cccccc;
 }
-.ball h1{
+.ball {
     border: 2px solid ;
     
 
     
 
+    
 
-
-
+    font-size: 50px;
 
     border-radius: 50%;
     border: 1px solid #fff;
-    width: 2.5em;
+    width: 1.6em;
+    height: 1.6em;
     margin: 0 auto;
     padding: .4em;
 
