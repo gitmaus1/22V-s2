@@ -1,13 +1,15 @@
 from dataclasses import replace
+from random import*
+from tkinter import END
 
-
-texti="1 2 3 4 5"
-print(texti.count(" "))#telur bill
-ddddd=input("skrifa: ")
-print(ddddd.isupper())#ef stór true ef litil false
-print(ddddd.islower())#ef litil true ef stór false
-print(ddddd.swapcase())#stórir werða litlir litlir stórir
-print(ddddd.replace(" "," ass "))
+#texti="1 2 3 4 5"
+#print(texti.count(" "))#telur bill
+#ddddd=input("skrifa: ")
+#print(ddddd.isupper())#ef stór true ef litil false
+#print(ddddd.islower())#ef litil true ef stór false
+#print(ddddd.swapcase())#stórir werða litlir litlir stórir
+#print(ddddd.replace(" "," ass "))
+#############################################################
 a1=input("a1: ")
 a2=input("a2: ")
 a3=input("a3: ")
@@ -38,3 +40,12 @@ elif b5 >= b1 and b5 >= b2 and  b5 >= b3 and b5 >= b4 :
     print("a5 stór")
     print(b5)
     print(a5)
+###############################################################
+aaaaaaaaaaaaa=input("nafn: ")
+print(aaaaaaaaaaaaa.isupper())#ef stór true ef litil false
+print(aaaaaaaaaaaaa.islower())#ef litil true ef stór false
+print(aaaaaaaaaaaaa.swapcase())#stórir werða litlir litlir stórir
+print(aaaaaaaaaaaaa.replace("s","$"))
+print(aaaaaaaaaaaaa.replace("a","@"))
+###############################################################
+###############################################################
