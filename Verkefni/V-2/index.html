@@ -276,43 +276,8 @@
         </tbody>
       </table>
     </div>
-    <table>
-      <caption>Titill töflu</caption>
-      <thead>
-          <tr>
-              <th scope="col"> </th>
-              <th scope="col">A</th>
-              <th scope="col">B</th>
-              <th scope="col">C</th>
-              <th scope="col">D</th>
-          </tr>
-          <!-- The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows.
-          Note: The scope attribute has no visual effect in ordinary web browsers, but can be used by screen readers. -->
-      </thead>
-      <tbody>
-          <tr>
-              <td scope="row" data-label="AÖ">E</td>
-              <td data-label="A">Atli</td>
-              <td data-label="B">Bára</td>
-              <td data-label="C">Cesar</td>
-              <td data-label="D">Dóra</td>
-          </tr>
-          <tr>
-              <td scope="row" data-label="AÖ">F</td>
-              <td data-label="A">Andrés</td>
-              <td data-label="B">Baldur</td>
-              <td data-label="C">Cleopatra</td>
-              <td data-label="D">Daníel</td>
-          </tr>
-          <tr>
-              <td scope="row" data-label="AÖ">G</td>
-              <td data-label="A">Alfreð</td>
-              <td data-label="B">Björn</td>
-              <td data-label="C">Calicula</td>
-              <td data-label="D">Diðrik</td>
-          </tr>
-      </tbody>
-  </table>	
+    
+  
 
 
 
@@ -321,19 +286,16 @@
   <figure>
     <img src="images/placeholder2.png" >
   </figure>
-  <form  method="post">
-    Name: <input type="text" name="name"><br>
-    E-mail: <input type="text" name="email"><br>
-    <input type="submit">
+  
     
-
+  <form action="/action_page.php">
     <table>
       <tr>
         <td>nafn</td>
         
       </tr>
       <tr>
-        <td>Name: <input type="text" name="name"><br></td>
+        <td> <input type="tel" id="nafn" name="nafn" placeholder="jon dou" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
         
       </tr>
       <tr>
@@ -341,7 +303,7 @@
         
       </tr>
       <tr>
-        <td>simanumer: <input type="text" name="name"><br></td>
+        <td> <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
         
       </tr>
 
@@ -351,16 +313,26 @@
       </tr>
       <tr>
         
-        <td>E-mail: <input type="text" name="email"><br></td>
+        <td> <input type="email" id="email" name="email" placeholder="xxxx@gmail.com" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
       </tr>
       <tr>
         
-        <td> <input type="text" name="email"><br></td>
+        <td> <input type="text" id="text" name="text" placeholder="text" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+        
       </tr>
-
-
+      <tr>
+        
+        <td><input type="submit"></td>
+        
+      </tr>
+    </form>
     </table>
-
+    <form action="/action_page.php">
+      <label for="phone">Enter a phone number:</label><br><br>
+      <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+      <small>Format: 123-45-678</small><br><br>
+      <input type="submit">
+    </form>
     
     </form>
     </section>
