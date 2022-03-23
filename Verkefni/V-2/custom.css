@@ -79,6 +79,28 @@
     padding: .4em;
 
 }
+.font{
+    /* Fyrirsagnarletur má vera stærra */
+    
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Shizuru', cursive;
+}
+.font2{
+    /* Fyrirsagnarletur má vera stærra */
+    
+    font-family: 'Lobster', cursive;
+}
+.font3{
+    /* Fyrirsagnarletur má vera stærra */
+    
+    font-family: 'Fredericka the Great', cursive;
+}
+.font4{
+    /* Fyrirsagnarletur má vera stærra */
+    
+    font-family: 'Fredericka the Great', cursive;
+}
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
