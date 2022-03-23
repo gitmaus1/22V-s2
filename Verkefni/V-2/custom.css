@@ -69,11 +69,6 @@
 .ball {
     border: 2px solid ;
     
-
-    
-
-    
-
     font-size: 50px;
 
     border-radius: 50%;
@@ -102,7 +97,7 @@ table {
   table th,
   table td {
     padding: .625em;
-    text-align: center;
+    text-align: left;
   }
  
 @media screen and (min-width:3px){
