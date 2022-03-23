@@ -15,7 +15,14 @@
     <!-- stílsíður sem við eigum eftir að bæta við-->
     <!--link rel="stylesheet" href="css/iconfont.css"-->
     <!--link rel="stylesheet" href="css/topmenu.css"-->
-    
+
+
+
+
+
+
+
+
 	<link href="https://fonts.googleapis.com/css2?family=Ewert&family=Fredericka+the+Great&family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&family=Redressed&family=Rokkitt:wght@300&family=Shizuru&display=swap" rel="stylesheet">
     <!--Allar stílsíðurnar eru síðan þjappaðar í eina stílsíðu -->
     <link rel="stylesheet" href="styles.css">
@@ -304,7 +311,7 @@
         
       </tr>
       <tr>
-        <td> <input type="tel" id="nafn" name="nafn" placeholder="jon dou" pattern=".{2,}" required></td>
+        <td> <input type="tel" id="nafn" name="nafn" placeholder="jon dou" pattern=".{2,}" required size="auto"></td>
       </tr>
       <tr>
         <td>simanumer</td>
@@ -319,13 +326,20 @@
         <td> <input type="email" id="email" name="email" placeholder="xxxx@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></td>
       </tr>
       <tr>       
-        <td> <input type="text" id="text" name="text" placeholder="Ábending" required pattern=".{2,}"></td>       
+        <td> <input type="text" id="text" name="text" placeholder="Ábending" required pattern=".{2,}" ></td>       
+      </tr>
+      <tr>
+        <td><input type="date" id="birthday" name="birthday" required></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="book" value="html" id="book_html" required>wall 1<input type="radio" name="book" value="html" id="book_html" required>wall 2</td>
       </tr>
       <tr>
         
         <td><input type="submit"></td>
         
       </tr>
+    
 
       </table>
       <!-- 2 -----------------------------------------------------------
