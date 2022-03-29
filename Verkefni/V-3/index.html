@@ -40,17 +40,37 @@
 
 
 
-
+    <symbol id="icon-home" viewBox="0 0 32 32">
+      <path d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z"></path>
+      </symbol>
 
     
 </head>
 <body id="top">
+  
+  <svg class="icon icon-home"><use xlink:href="#icon-home"></use></svg>
+  <span class="icon-home"></span>
   <nav class="topnav ">
     
 
   </nav>
+  <div class="ds">
 
-  <!--------------------------------------------------------------------------------------->
+    
+
+    <input type="checkbox" id="toggle">
+    <label for="toggle">&#9776;</label>
+    <nav>
+      <ul>
+        <li><a href="&#xe900;"><span class="icon-home"></span></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <!---------------------------------------------------------------------------------------
 <div class="ds">
   <input type="checkbox" id="toggle">
   <label for="toggle">&#9776;</label>
@@ -63,7 +83,7 @@
     </ul>
   </nav>
 </div>
-
+----------------------------------------------------------------------------------------------
 
 <div class="dc">
 <nav >
@@ -74,7 +94,7 @@
       <ul class="menu">
           <li><a href="#">Home</a></li>
           <li>
-              <!-- First Tier Drop Down -->
+              <!-- First Tier Drop Down --
               <label for="drop-1" class="toggle">WordPress +</label>
               <a href="#">WordPress</a>
               <input type="checkbox" id="drop-1"/>
@@ -87,7 +107,7 @@
           </li>
           <li>
 
-          <!-- First Tier Drop Down -->
+          <!-- First Tier Drop Down --
           <label for="drop-2" class="toggle">Web Design +</label>
           <a href="#">Web Design</a>
           <input type="checkbox" id="drop-2"/>
@@ -96,7 +116,7 @@
               <li><a href="#">Links</a></li>
               <li>
                  
-              <!-- Second Tier Drop Down -->        
+              <!-- Second Tier Drop Down --
               <label for="drop-3" class="toggle">Tutorials +</label>
               <a href="#">Tutorials</a>         
               <input type="checkbox" id="drop-3"/>

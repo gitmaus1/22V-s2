@@ -181,7 +181,30 @@ table {
 
 
 
-  /* CSS Document */
+/*--------------------------------------------*/
+
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon-home:before {
+    content: "\e900";
+  }
+/*--------------------------------------------*/
+
+
+
+
+
+
+
+/*#########################################################
+
+  /* CSS Document *
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
@@ -240,7 +263,7 @@ table {
 	display: none;
 }
 
-/* Giving a background-color to the nav container. */
+/* Giving a background-color to the nav container. *
 .dc nav { 
 	margin:0;
 	padding: 0;
@@ -256,7 +279,7 @@ table {
 }
 
 /* Since we'll have the "ul li" "float:left"
- * we need to add a clear after the container. */
+ * we need to add a clear after the container. *
 
 .dc nav:after {
 	content:"";
@@ -265,7 +288,7 @@ table {
 }
 
 /* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
+ * and adding "position:reltive" *
 .dc nav ul {
 	float: right;
 	padding:0;
@@ -274,7 +297,7 @@ table {
 	position: relative;
 	}
 	
-/* Positioning the navigation items inline */
+/* Positioning the navigation items inline *
 .dc nav ul li {
 	margin: 0px;
 	display:inline-block;
@@ -282,7 +305,7 @@ table {
 	background-color: #254441;
 	}
 
-/* Styling the links */
+/* Styling the links *
 .dc nav a {
 	display:block;
 	padding:14px 20px;	
@@ -294,26 +317,26 @@ table {
 
 .dc nav ul li ul li:hover { background: #000000; }
 
-/* Background color change on Hover */
+/* Background color change on Hover *
 .dc nav a:hover { 
 	background-color: #000000; 
 }
 
 /* Hide Dropdowns by Default
- * and giving it a position of absolute */
+ * and giving it a position of absolute *
 .dc nav ul ul {
 	display: none;
 	position: absolute; 
-	/* has to be the same number as the "line-height" of "nav a" */
+	/* has to be the same number as the "line-height" of "nav a" *
 	top: 60px; 
 }
 	
-/* Display Dropdowns on Hover */
+/* Display Dropdowns on Hover *
 .dc nav ul li:hover > ul {
 	display:inherit;
 }
 	
-/* Fisrt Tier Dropdown */
+/* Fisrt Tier Dropdown *
 .dc nav ul ul li {
 	width:170px;
 	float:none;
@@ -324,16 +347,16 @@ table {
 /* Second, Third and more Tiers	
  * We move the 2nd and 3rd etc tier dropdowns to the left
  * by the amount of the width of the first tier.
-*/
+*
 .dc nav ul ul ul li {
 	position: relative;
 	top:-60px;
-	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	/* has to be the same number as the "width" of "nav ul ul li" *
 	left:170px; 
 }
 
 	
-/* Change ' +' in order to change the Dropdown symbol */
+/* Change ' +' in order to change the Dropdown symbol *
 .dc li > a:after { content:  ' +'; }
 .dc li > a:only-child:after { content: ''; }
 
