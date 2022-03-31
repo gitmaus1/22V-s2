@@ -4,85 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="icomoon (2)/styleer.css">
+    <link rel="stylesheet" type="text/css" href="exp.css">
     <title>Sýnidæmi 3 - fellilisti</title>
     <style>
-        /* ekki stíla input heldur klasa */
-        .menuinput {
-            display: none;
-        }
-        .menubutton,
-        .topmenu {
-            border: 1px solid #cecfd5;
-            border-radius: 6px;
-        }
-        .menubutton {
-            color: #0087cc;
-            cursor: pointer;
-            display: inline-block;
-            font-size: 18px;
-            padding: 5px 9px;
-            transition: all .25s ease;
-        }
-        .menubutton:hover {
-            color: #ff7b29;
-        }
-        .menuinput:checked + .menubutton {
-            box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.35);
-            color: #9799a7;
-        }
-        .topnav {
-            /*max-height: 0;
-            overflow: hidden; - transition height víbrar í símum,*/
-            position: fixed; /* ath - sticky */
-            left: -20em;
-            top: 3em;
-            z-index: 100;
-            transition: all .5s ease;
-        }
-        .menuinput:checked ~ .topnav {
-            /*max-height: 500px;*/
-            left: 1em
-        }
-        .topmenu {
-            list-style: none;
-            margin: 8px 0 0 0;
-            padding: 0;
-            width: 130px;
-            background-color: rgb(255, 251, 240);
-        }
-        .topmenu li {
-            border-bottom: 1px solid #cecfd5;
-        }
-        .topmenu li:last-child {
-            border-bottom: 0;
-        }
-        .topmenu a {
-            color: #0087cc;
-            display: block;
-            padding: 6px 12px;
-            text-decoration: none;
-        }
-        .topmenu a:hover {
-            color: #ff7b29;
-        }
-        header h1 {
-            text-align: center;
-            color: #ff7b29;
-        }
+        
+        
     </style>
 </head>
 <body>
-    <!-- í fellilista eiga öll element að vera skilgreind með klasa og/eða id -->
-    <input type="checkbox" class="menuinput" id="toggle">
-    <label for="toggle" class="menubutton">&#9776;</label><!-- for tengir label við id -->
-    <nav class="topnav">
-        <ul class="topmenu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    
+      
+      <div class="dc">
+      <nav >
+        <div id="logo">Your Logo here</div>
+      
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                   
+                    <label for="drop-1" class="toggle">WordPress +</label>
+                    <a href="&#xe900;">WordPress</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">Themes and stuff</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul> 
+      
+                </li>
+                <li>
+      
+                
+                <label for="drop-2" class="toggle">Web Design +</label>
+                <a href="#">Web Design</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li>
+                       
+                    
+                    <label for="drop-3" class="toggle">Tutorials +</label>
+                    <a href="#">Tutorials</a>         
+                    <input type="checkbox" id="drop-3"/>
+      
+                    <ul>
+                        <li><a href="#">HTML/CSS</a></li>
+                        <li><a href="#">jQuery</a></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+      </div>
     <header><h1>Sýnidæmi 3 - fellilisti</h1></header>
     <p><a href="https://learn.shayhowe.com/advanced-html-css/complex-selectors/#sibling-selectors" title="heimild">Heimild: Shayhove, Complex Selectors</a></p>
 </body>

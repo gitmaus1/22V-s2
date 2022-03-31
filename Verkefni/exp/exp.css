@@ -1,15 +1,15 @@
-.ds body {
+ body {
     font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
   }
 .ds  input {
     display: none;
   }
-.ds  label,
- .ds ul {
+  label,
+  ul {
     border: 1px solid #cecfd5;
     border-radius: 6px;
   }
- .ds label {
+  label {
     color: #0087cc;
     cursor: pointer;
     display: inline-block;
@@ -217,7 +217,7 @@
 
 @media all and (max-width : 768px) {
 
-.dc	#logo {
+	#logo {
 		display: block;
 		padding: 0;
 		width: 100%;
@@ -225,7 +225,7 @@
 		float: none;
 	}
 
-.dc	nav {
+	nav {
 		margin: 0;
 	}
 
@@ -257,22 +257,22 @@
 	}
 
 	/* Change menu item's width to 100% */
-.dc	nav ul li {
+	nav ul li {
 		display: block;
 		width: 100%;
 		}
 
-.dc	nav ul ul .toggle,
-.dc	nav ul ul a {
+	nav ul ul .toggle,
+	nav ul ul a {
 		padding: 0 40px;
 	}
 
-.dc	nav ul ul ul a {
+	nav ul ul ul a {
 		padding: 0 80px;
 	}
 
-.dc	nav a:hover,
- .dc	nav ul ul ul a {
+	nav a:hover,
+ 	nav ul ul ul a {
 		background-color: #000000;
 	}
   
