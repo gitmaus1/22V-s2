@@ -541,7 +541,7 @@ table {
         right: 1em;
         
     }
-    
+    .df{display: none;}
 }
 @media screen and (min-width:37.5em){
     .taki{
@@ -562,13 +562,12 @@ table {
         bottom: 1em;
         right: 1em;
     }
-    .ef{display: all;}
+    .ef{display: none;}
 }
-@media screen and (min-width:60em){
+@media screen and (min-width:49em){
   
-  .ef{
-    display: contents;
-  }
+  .df{display: contents;}
+  
 }
 
 @media screen and (max-width: 600px) {
