@@ -10,6 +10,63 @@ from collections import Counter
 import collections
 from dataclasses import replace
 from unicodedata import digit
+
+
+
+#str = input()
+   
+ 
+#print ("Original string: " + str) 
+   
+# Removing char at pos 3 
+# using slice + concatenation 
+#res_str = str[:0] +  str[1:] 
+   
+ 
+#print ("String after removal of character: " + res_str) 
+
+
+
+
+#svar4=input("svar4: ")
+#stem=0
+#daft=len(svar4)
+#print(len(svar4))
+#print(svar4)
+#while 0 <= daft:
+#    nuna=svar4[:-0] + svar4[:stem]
+#    print(nuna)
+#    stem-=1
+#    daft-=1
+#print(nuna)
+
+
+
+#for i in range(len(svar4)):
+#    defp=i-1
+#    print(i)
+#    svar4.pop(0)
+#    print(svar4)
+
+
+#print(svar4)
+
+
+
+
+#svar4=[input("svar4: ")]
+
+#for i in range(len(svar4)):
+#    defp=i-1
+#    print(i)
+#    svar4.pop(0)
+#    print(svar4)
+
+
+#print(svar4)
+
+
+
 #######################################################################
 #1
 svar1=input("svar1: ")
@@ -58,8 +115,16 @@ else:
 
 #######################################################################
 #4
-#for i in range(len(svar4)):
-
+svar4=input("svar4: ")
+stem=0
+daft=len(svar4)
+#print(len(svar4))
+print(svar4)
+while 0 <= daft:
+    nuna=svar4[:-0] + svar4[:stem]
+    print(nuna)
+    stem-=1
+    daft-=1
 #######################################################################
 #5
 svar5=input("svar5: ")
