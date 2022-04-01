@@ -67,6 +67,45 @@ from unicodedata import digit
 
 
 
+dem=0
+
+svar6=input("svar6: ")
+stemm=0
+daftt=len(svar6)
+#print(len(svar4))
+print(svar6)
+while 0 <= daftt:
+    nuna=svar6[:-0] + svar6[:stemm] and svar6[:dem] + svar6[:0]
+
+    suna=svar6[:dem] + svar6[:0]
+
+    duna=nuna+suna
+
+    print(suna)
+    print(nuna)
+
+    print(duna)
+    stemm-=1
+    daftt-=1
+
+    dem+=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #######################################################################
 #1
 svar1=input("svar1: ")
