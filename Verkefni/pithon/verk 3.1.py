@@ -291,8 +291,6 @@ while svar == "já" or svar == "Já":
         print(svar6)
         while 0 <= daftt:
             print (svar6 [dem:stemm])
-            
-            
             dem+=1
             stemm-=1
             daftt-=1
