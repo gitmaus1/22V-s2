@@ -65,33 +65,22 @@ from unicodedata import digit
 
 #print(svar4)
 
+#test_string = 'This is a test!'
+#print (test_string [1:-1])
 
+#dem=0
+#stemm=0
+#svar6=input("svar6: ")
+#daftt=len(svar6)
+#print(svar6)
+#while 0 <= daftt:
+    
+    
+    #daftt-=1
 
-dem=0
-
-svar6=input("svar6: ")
-stemm=0
-daftt=len(svar6)
-#print(len(svar4))
-print(svar6)
-while 0 <= daftt:
-    nuna=svar6[:-0] + svar6[:stemm] and svar6[:dem] + svar6[:0]
-
-    suna=svar6[:dem] + svar6[:0]
-
-    duna=nuna+suna
-
-    print(suna)
-    print(nuna)
-
-    print(duna)
-    stemm-=1
-    daftt-=1
-
-    dem+=1
-
-
-
+   # print (svar6 [dem:stemm])
+  #  dem+=1
+ #   stemm-=1
 
 
 
@@ -181,4 +170,14 @@ swore59=swore58.replace("9", "#")
 print(swore59)
 #######################################################################
 #6
+dem=0
+stemm=0
+svar6=input("svar6: ")
+daftt=len(svar6)
+print(svar6)
+while 0 <= daftt:
+    daftt-=1
+    print (svar6 [dem:stemm])
+    dem+=1
+    stemm-=1
 #######################################################################
