@@ -111,9 +111,30 @@ table {
     table-layout: fixed;
     width: 100%;
   }
-  
+/*############################################################################*/
+.whiter{
+   background-color: #f8f8f8;
+}
+.bluu{
+   background-color: #0087cc;
+}
+button{
+  background-color: #f8f8f8;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-steam:before {
+  content: "\eaac";
+}
+/*############################################################################*/
   table tr {
-    background-color: #f8f8f8;
+    
     border: 1px solid #ddd;
     padding: .35em;
   }
