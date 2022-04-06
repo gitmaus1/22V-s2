@@ -1,5 +1,63 @@
 /* CSS boilerplate  */
 
+
+
+
+:root{
+   --h1:  #ffffff  ;
+   
+   --h2: #ffffff;
+   --h3:  #ffffff;
+   --h4:  #9a9501;
+   --h5:  #2a962f;
+   --h6:  #337f87;
+   --p:  #ffffff;
+   --a:  #ffffff;
+   --background-image: linear-gradient(to right,#355f71,#6e2e59);
+   --font:  'Shizuru', cursive;
+   --font2:  'Lobster', cursive;
+
+  --font3:  'Fredericka the Great', cursive;
+
+  --font4:  'Fredericka the Great', cursive;
+}
+body {
+  background-image: var(--background-image);
+}
+h1 {
+  color: var(--h1);
+  font-family: var(--font2)
+}
+h2 {
+  color: var(--h2);
+  font-family: 'Shizuru', cursive;
+}
+h3 {
+  color: var(--h3);
+  font-family: 'Fredericka the Great', cursive;
+}
+h4 {
+  color: var(--h4);
+  font-family: 'Fredericka the Great', cursive;
+}
+h5 {
+  color: var(--h5);
+}
+h6 {
+  color: var(--h6);
+}
+p {
+  color: var(--p);
+  font-family: 'Lobster', cursive;
+}
+
+a {
+  color: var(--a);
+}
+
+
+
+
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
   - Smooth Scroll
@@ -56,7 +114,7 @@ h3 { font-size: 1.3em; line-height: 1.6;  }
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #06664e; }
+  color: #000000; }
 a:hover,
 a:visited {
   color: #0FA0CE; }
