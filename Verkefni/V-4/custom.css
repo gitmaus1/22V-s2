@@ -1,3 +1,11 @@
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid;
+  padding: .3em;
+}
+
 .non{
     display: none;
 }
