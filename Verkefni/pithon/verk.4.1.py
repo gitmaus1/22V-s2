@@ -55,7 +55,7 @@ def margfalta(marglist) :
 
 #print(margfalta(list1))
 print(margfalta(daft))
-print("tölur undir 15: ",daft," og suman er: ",margfalta(daft),sep)
+print("tölur undir 15: ",daft," og sinnum er: ",margfalta(daft),sep)
 print(snort)
 
 
