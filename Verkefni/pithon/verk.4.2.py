@@ -52,7 +52,7 @@ siff=0
 for n in snort:
     print(n, end="; ")
     siff+=1
-    if siff==5:
+    if siff==15:
         print("\n")
         siff=0
    
