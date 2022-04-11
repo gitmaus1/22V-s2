@@ -28,9 +28,10 @@ print(svar3listi)
 for i in svar3listi:
     if book == i[0]:
         print("rétt")
+        svar3listi.remove(i)
+print(svar3listi)
 
-
-
+input()
 ##################################
 ##svar2listi = []
 
@@ -151,7 +152,7 @@ print("listin er ",x," langur")
 
 
 
-
+input()
 ##################################################################################
 #2
 
