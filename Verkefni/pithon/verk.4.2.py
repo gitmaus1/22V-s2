@@ -14,59 +14,77 @@ from unicodedata import digit
 import math
 ##################################################################################
 #exp
-svar2listi = []
 
-def suman(sumlist) :
+
+
+svar3listi = []
+
+for a in range(5):
+    orð1 = input("Sláðu inn orð: ")
+    svar3listi.append(orð1)
+
+book= input("Fyrsti stafur sem þú villt eyða orðum úr lista: ")
+print(svar3listi)
+for i in svar3listi:
+    if book == i[0]:
+        print("rétt")
+
+
+
+##################################
+##svar2listi = []
+
+##def suman(sumlist) :
      
     # margfalda
-    ser = 0
-    for n in sumlist:
-         ser = ser + n
+##    ser = 0
+##    for n in sumlist:
+##         ser = ser + n
     
-    return ser
+##    return ser
 
 
 
 
 
 
-for n in range(4000,8201):
-    if n % 7 == 0 or n % 3 == 0:
-        svar2listi.append(n)
+##for n in range(4000,8201):
+##    if n % 7 == 0 or n % 3 == 0:
+##        svar2listi.append(n)
 
 
 
 
 
-siffer=0
-for n in svar2listi:
-    print(n, end=",,, ")
-    siffer+=1
-    if siffer==1:
-        print("\n")
-        siffer=0
+##siffer=0
+##for n in svar2listi:
+##    print(n, end=",,, ")
+##    siffer+=1
+##    if siffer==1:
+##        print("\n")
+##        siffer=0
 
 #safffaren=len(svar2listi)
-def meðal(meðallist) :
+##def meðal(meðallist) :
      
     # margfalda
-    ssser = 0
-    for n in meðallist:
-         ssser = (ssser + n)
-    avg = ssser / len(svar2listi)
-    return avg
+##    ssser = 0
+##    for n in meðallist:
+##         ssser = (ssser + n)
+##    avg = ssser / len(svar2listi)
+##    return avg
 
-print("suman er: ",suman(svar2listi))
-print(sum(svar2listi))
-skan= meðal(svar2listi)
+##print("suman er: ",suman(svar2listi))
+##print(sum(svar2listi))
+##skan= meðal(svar2listi)
 
-print("meðal er: ","{:.2f}".format(skan))
+##print("meðal er: ","{:.2f}".format(skan))
 
 #print("  meðal er: ")
 
 #print(meðal(svar2listi))
 
-print(len(svar2listi))
+##print(len(svar2listi))
 ##################################################################################
 #1
 
@@ -137,15 +155,59 @@ print("listin er ",x," langur")
 ##################################################################################
 #2
 
-#svar2listi = []
+svar2listi = []
 
-#for n in range(4000,8201):
-#    if n % 7 == 0:
-#        svar2listi.append(n)
+def suman(sumlist) :
+     
+    # margfalda
+    ser = 0
+    for n in sumlist:
+         ser = ser + n
+    
+    return ser
 
-#print(svar2listi)
 
 
+
+
+
+for n in range(4000,8201):
+    if n % 7 == 0 or n % 3 == 0:
+        svar2listi.append(n)
+
+
+
+
+
+siffer=0
+for n in svar2listi:
+    print(n, end=",,, ")
+    siffer+=1
+    if siffer==1:
+        print("\n")
+        siffer=0
+
+#safffaren=len(svar2listi)
+def meðal(meðallist) :
+     
+    # margfalda
+    ssser = 0
+    for n in meðallist:
+         ssser = (ssser + n)
+    avg = ssser / len(svar2listi)
+    return avg
+
+print("suman er: ",suman(svar2listi))
+print(sum(svar2listi))
+skan= meðal(svar2listi)
+
+print("meðal er: ","{:.2f}".format(skan))
+
+#print("  meðal er: ")
+
+#print(meðal(svar2listi))
+
+print(len(svar2listi))
 
 
 ##################################################################################
