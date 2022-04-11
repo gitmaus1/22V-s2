@@ -13,6 +13,61 @@ from dataclasses import replace
 from unicodedata import digit
 import math
 ##################################################################################
+#exp
+svar2listi = []
+
+def suman(sumlist) :
+     
+    # margfalda
+    ser = 0
+    for n in sumlist:
+         ser = ser + n
+    
+    return ser
+
+
+
+
+
+
+for n in range(4000,8201):
+    if n % 7 == 0 or n % 3 == 0:
+        svar2listi.append(n)
+
+
+
+
+
+siffer=0
+for n in svar2listi:
+    print(n, end=",,, ")
+    siffer+=1
+    if siffer==1:
+        print("\n")
+        siffer=0
+
+#safffaren=len(svar2listi)
+def meðal(meðallist) :
+     
+    # margfalda
+    ssser = 0
+    for n in meðallist:
+         ssser = (ssser + n)
+    avg = ssser / len(svar2listi)
+    return avg
+
+print("suman er: ",suman(svar2listi))
+print(sum(svar2listi))
+skan= meðal(svar2listi)
+
+print("meðal er: ","{:.2f}".format(skan))
+
+#print("  meðal er: ")
+
+#print(meðal(svar2listi))
+
+print(len(svar2listi))
+##################################################################################
 #1
 
 soft=[]
@@ -58,18 +113,6 @@ for n in snort:
    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 print("næst hæsta tala er: ", snort[-2])
 print("minstu 5 tölur eru : ", snort[0],snort[1],snort[2],snort[3],"og 5 lægsta tala er",snort[4])
 
@@ -93,6 +136,18 @@ print("listin er ",x," langur")
 
 ##################################################################################
 #2
+
+#svar2listi = []
+
+#for n in range(4000,8201):
+#    if n % 7 == 0:
+#        svar2listi.append(n)
+
+#print(svar2listi)
+
+
+
+
 ##################################################################################
 #3
 ##################################################################################
