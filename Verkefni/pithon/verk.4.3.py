@@ -17,21 +17,144 @@ import math
 
 
 
-svar3listi = []
+verksvar4=["bill","billibob","bobbillibob","tim","tom","björn","harry"]
 
-for a in range(5):
-    orð1 = input("Sláðu inn orð: ")
-    svar3listi.append(orð1)
+newlist = [x.lower() for x in verksvar4]
 
-book= input("Fyrsti stafur sem þú villt eyða orðum úr lista: ")
-print(svar3listi)
-for i in svar3listi:
-    if book == i[0]:
-        print("rétt")
-        svar3listi.remove(i)
-print(svar3listi)
+print(newlist)
+
+verksvar4two=["bill","billibob","dick","sunny"]
+
+newlist2 = [x.capitalize() for x in verksvar4two]
+
+print(newlist2)
+
+
+
+
+listinumer3=[]
+
+listinumer4=[]
+
+
+
+count = 0
+for i in range(len(verksvar4)):
+        for j in range(len(verksvar4two)):
+            if verksvar4[i] == verksvar4two[j]:
+                count += 1
+                print(i,"er sama",j)
+                listinumer3.append(verksvar4[i])
+                #verksvar4.remove(i)
+                break
+            else:
+                listinumer4.append(verksvar4[i])
+                listinumer4.append(verksvar4two[j])
+print(verksvar4)
+print(listinumer3)
+print(listinumer4)
+a = list(set(listinumer4))
+print(a)
+# call the function
+print(count)
+
+
+
+
+
+
+
+list1 = [6, 1, 5, 2, 3]
+list2 = [3, 5, 2, 1, 4]
+
+#def compare(list1, list2):
+
+    # Check if all the elements of both the lists are same
+count = 0
+for i in range(len(list1)):
+        for j in range(len(list2)):
+            if list1[i] == list2[j]:
+                count += 1
+                
+                break
+ 
+
+# call the function
+print(count)
+#print(compare(list1, list2))
+#print(compare(newlist, newlist2))
 
 input()
+
+
+
+#svar3listi = []
+
+#for a in range(5):
+#    orð1 = input("Sláðu inn orð: ")
+#    svar3listi.append(orð1)
+
+
+#print("obreitur listi: ",svar3listi)
+#nkjhb=sorted(svar3listi)
+#print("raðað",nkjhb)
+
+#######################
+#def backvatd(x):
+#  return x[::-1]
+#svar3listi[0]=  backvatd(svar3listi[0])
+#svar3listi[-1]=  backvatd(svar3listi[-1])
+#print("nema hvað fyrsta og síðasta orðið á að skrifast út öfugt",svar3listi)
+#print("nema hvað fyrsta og síðasta orðið á að skrifast út öfugt",svar3listi)
+#print("nema hvað fyrsta og síðasta orðið á að skrifast út öfugt",svar3listi)
+#for i in svar3listi:
+#    backvatd(i[0])
+#    if i[0]:
+#       i[::-1]
+#       print(i)
+#print(svar3listi)
+
+#######################
+#print(svar3listi[0])
+#nufsed1=0
+#nufsed2=0
+#nufsed3=0
+#for i in svar3listi:
+#    if len(i) == 5:
+#        print(i,"er sama sem 5 og er með : ",len(i)," carectera")
+ #       nufsed1+=1
+
+#    if len(i) > 5:
+#       print(i,"er  leingri en 5 og er með : ",len(i)," carectera")
+#        nufsed2+=1
+
+#    if len(i) < 5:
+#        print(i,"er  stitri en 5 og er með : ",len(i)," carectera")
+#        nufsed3+=1
+
+
+#print("það eru : ",nufsed1," orð sama sem 5")
+#print("það eru : ",nufsed2," orð leingri en 5")
+#print("það eru : ",nufsed3," orð stitri en 5")
+########################
+#book= input("Fyrsti stafur sem þú villt eyða orðum úr lista: ")
+#eitt=0
+
+#iasdf=0
+#while iasdf <  5:
+# for i in svar3listi:
+    #print(i)
+    #if book == i[0]:
+   #     eitt+=1
+  #      print(i,"war fjarlægt")
+ #       svar3listi.remove(i)
+# iasdf+=1
+  
+
+#print(eitt,"orðum var eitt")
+#print(svar3listi)
+#######################
+
 ##################################
 ##svar2listi = []
 
@@ -213,5 +336,143 @@ print(len(svar2listi))
 
 ##################################################################################
 #3
+
+
+svar3listi = []
+
+for a in range(5):
+    orð1 = input("Sláðu inn orð: ")
+    svar3listi.append(orð1)
+
+
+print("obreitur listi: ",svar3listi)
+nkjhb=sorted(svar3listi)
+print("raðað",nkjhb)
+
+#######################
+def backvatd(x):
+  return x[::-1]
+svar3listi[0]=  backvatd(svar3listi[0])
+svar3listi[-1]=  backvatd(svar3listi[-1])
+print("nema hvað fyrsta og síðasta orðið á að skrifast út öfugt",svar3listi)
+print("nema hvað fyrsta og síðasta orðið á að skrifast út öfugt",svar3listi)
+print("nema hvað fyrsta og síðasta orðið á að skrifast út öfugt",svar3listi)
+#for i in svar3listi:
+#    backvatd(i[0])
+#    if i[0]:
+#       i[::-1]
+#       print(i)
+#print(svar3listi)
+
+#######################
+#print(svar3listi[0])
+nufsed1=0
+nufsed2=0
+nufsed3=0
+for i in svar3listi:
+    if len(i) == 5:
+        print(i,"er sama sem 5 og er með : ",len(i)," carectera")
+        nufsed1+=1
+
+    if len(i) > 5:
+        print(i,"er  leingri en 5 og er með : ",len(i)," carectera")
+        nufsed2+=1
+
+    if len(i) < 5:
+        print(i,"er  stitri en 5 og er með : ",len(i)," carectera")
+        nufsed3+=1
+
+
+print("það eru : ",nufsed1," orð sama sem 5")
+print("það eru : ",nufsed2," orð leingri en 5")
+print("það eru : ",nufsed3," orð stitri en 5")
+########################
+book= input("Fyrsti stafur sem þú villt eyða orðum úr lista: ")
+eitt=0
+
+iasdf=0
+while iasdf <  5:
+ for i in svar3listi:
+    #print(i)
+    if book == i[0]:
+        eitt+=1
+        print(i,"war fjarlægt")
+        svar3listi.remove(i)
+ iasdf+=1
+  
+
+print(eitt,"orðum var eitt")
+print(svar3listi)
+#######################
+
 ##################################################################################
 #4
+verksvar4=["bill","billibob","bobbillibob","tim","tom","björn","harry"]
+
+newlist = [x.lower() for x in verksvar4]
+
+print(newlist)
+
+verksvar4two=["bill","billibob","dick","sunny"]
+
+newlist2 = [x.capitalize() for x in verksvar4two]
+
+print(newlist2)
+
+
+
+
+listinumer3=[]
+
+listinumer4=[]
+
+
+
+count = 0
+for i in range(len(verksvar4)):
+        for j in range(len(verksvar4two)):
+            if verksvar4[i] == verksvar4two[j]:
+                count += 1
+                print(i,"er sama",j)
+                listinumer3.append(verksvar4[i])
+                #verksvar4.remove(i)
+                break
+            else:
+                listinumer4.append(verksvar4[i])
+                listinumer4.append(verksvar4two[j])
+print(verksvar4)
+print(listinumer3)
+print(listinumer4)
+a = list(set(listinumer4))
+print(a)
+# call the function
+print(count)
+
+
+
+
+
+
+
+list1 = [6, 1, 5, 2, 3]
+list2 = [3, 5, 2, 1, 4]
+
+#def compare(list1, list2):
+
+    # Check if all the elements of both the lists are same
+count = 0
+for i in range(len(list1)):
+        for j in range(len(list2)):
+            if list1[i] == list2[j]:
+                count += 1
+                
+                break
+ 
+
+# call the function
+print(count)
+#print(compare(list1, list2))
+#print(compare(newlist, newlist2))
+
+input()
+
