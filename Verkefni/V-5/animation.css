@@ -192,3 +192,54 @@
 
 
 
+.cent{
+
+ 
+  animation: dan 10s 1 ;
+  
+}
+
+
+
+@keyframes dan  {
+  to {  
+  }
+
+
+  0%   { visibility: hidden;
+    width: 0;
+    height: 0;
+    min-height: 0;
+    display: none;
+     
+  
+
+  
+  
+  }
+  25%  { visibility: hidden;
+    width: 0;
+    height: 0;
+    min-height: 0;
+    display: none;}
+  50%  { visibility: hidden;
+    width: 0;
+    height: 0;
+    min-height: 0;
+    display: none;}
+  75%  { visibility: hidden;
+    width: 0;
+    height: 0;
+    min-height: 0;
+    display: none;}
+  100% {     visibility: hidden;
+      width: 0;
+      height: 0;
+      min-height: 0;
+      display: none;
+      
+}
+
+
+}
+
