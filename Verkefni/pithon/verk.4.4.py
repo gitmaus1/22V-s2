@@ -329,11 +329,11 @@ while svar == "já" or svar == "Já":
 
         siffer=0
         for n in svar2listi:
-            print(n, end=",,, ")
+            print(n, end=", ")
             siffer+=1
-            if siffer==1:
-                print("\n")
-                siffer=0
+           # if siffer==1:
+            #    print("\n")
+            #    siffer=0
 
         #safffaren=len(svar2listi)
         def meðal(meðallist) :
