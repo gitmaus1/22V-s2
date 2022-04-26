@@ -74,7 +74,7 @@
 
 
     0%   { height: 100vh;
-        background: black;
+      background-image: linear-gradient(to right,#6e0f0f,#126e0f,#6e2e59);
     color: white;
     
 

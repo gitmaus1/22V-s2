@@ -36,7 +36,7 @@ td {
     font-family: 'Open Sans', sans-serif;
     /*background-color: #1d52c5;*/
     color: rgb(255,255,255);
-    background-image: linear-gradient(to right,#0f1d6e,#2e656e);
+    background-image: linear-gradient(to right,#6e0f0f,#2e656e);
     margin: 0;
     display: grid;
 }
