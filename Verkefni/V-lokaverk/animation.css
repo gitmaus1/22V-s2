@@ -42,7 +42,7 @@
     display: flex;
 
     height: 0vh;
-    animation: ann 10s 1 ;
+    animation: ann 5s 1 ;
     
   }
 
@@ -98,7 +98,7 @@
     width: 0px;
     height: 0px;
     border-radius: 50%;
-    animation: hring 3s linear 3;
+    animation: hring 2.5s linear 2;
     
   }
 
@@ -175,7 +175,7 @@
 .cent{
 
  
-  animation: dan 10s 1 ;
+  animation: dan 5s 1 ;
   
 }
 
