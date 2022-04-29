@@ -20,14 +20,25 @@ import math
 control="ja"
 suma=1
 ass=0
+
 while control == "ja":
 
     talapart2=int(input("Sláðu inn tölu: "))
+    soft=talapart2
+
     if talapart2==0:
         control="stop"
 
     for i in range(talapart2):
         
+        dass=soft*(i+suma)
+        soft=talapart2-1
+
+
+        print(dass)
+
+
+
         ass=suma*i
         
         suma+=1

@@ -1,28 +1,28 @@
 
 
-  .kuff:hover{
+  .kuff{
     
     
     position: relative;
     animation-name: dame;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count:  infinite;
     
     
   }
   @keyframes dame {
-    0%   { transform: rotate(12deg);}
-    25%  { transform: rotate(120deg);}
-    50%  { transform: rotate(180deg);}
-    75%  { transform: rotate(216deg);}
-    100% { transform: rotate(12deg);}
+    0%   { transform: rotate(1deg);}
+    25%  { transform: rotate(3deg);}
+    50%  { transform: rotate(1deg);}
+    75%  { transform: rotate(3deg);}
+    100% { transform: rotate(1deg);}
   }
 
 
 
   body{
    
-   cursor: url(../V-5/images/icomoon/SVG/airplane.svg),auto;
+   cursor: url(../V-lokaverk/icomoonn/SVG/heart-broken.svg),auto;
    
   }
 
