@@ -17,6 +17,110 @@ import re
 
 ##################################################################################
 #exp í exp eru tilraunir til að leisa verkefnin oft án comenta
+
+
+
+
+
+
+##################################################
+
+stjorn= "j"
+
+input("itu á eitkvað til að rúla")
+teningur1=randint(1,6)
+teningur2=randint(1,6)
+
+summateningur=0
+
+print(teningur1)
+utttcoma1 = teningur1+teningur2
+
+
+if utttcoma1== 7 or utttcoma1== 11:
+        print(" winur")
+        stjorn= "k"
+
+if utttcoma1== 2 or utttcoma1== 3 or utttcoma1== 12:
+        print(" tapar")
+        stjorn= "k"
+stjorn= "k"
+
+summateningur=0
+
+if utttcoma1== 4 or utttcoma1== 5 or utttcoma1== 6 or utttcoma1== 8 or utttcoma1== 9 or utttcoma1== 10:
+        
+        summateningur+=utttcoma1
+        print(" þú ert að rena að fá ",summateningur)
+
+
+while stjorn== "j":
+
+    input("itu á eitkvað til að rúla")
+
+    teningur1=randint(1,6)
+    teningur2=randint(1,6)
+
+
+    
+
+    print(teningur1)
+    utttcoma1 = teningur1+teningur2
+
+    if utttcoma1== 7 :
+        print(" tapar")
+        stjorn= "k"
+
+    if utttcoma1== summateningur :
+        print(" winur")
+        stjorn= "k"
+
+
+
+
+
+##################################################
+
+#teljara1=int(input("Sláðu inn teljara fyrir brot 1 = "))
+#nefnara1=int(input("Sláðu inn nefnara fyrir brot 1 = "))
+#teljara2=int(input("Sláðu inn teljara fyrir brot 2 = "))
+#nefnara2=int(input("Sláðu inn nefnara fyrir brot 2 = "))
+
+
+
+
+
+#utcoma=teljara1/nefnara1 * teljara2/nefnara2 
+
+
+#utcoma2=teljara1*teljara2
+
+#utcoma3=nefnara1*nefnara2
+#while utcoma2 %2==0 and utcoma3 %2==0 :
+#    utcoma2=utcoma2/2
+#    utcoma3=utcoma3/2
+    
+
+#print(utcoma)
+
+#x % 2 == 0
+
+
+
+#print(teljara1,"/",nefnara1,"*",teljara2,"/",nefnara2,"=","{:.0f}".format(utcoma),"=","{:.0f}".format(utcoma2),"/","{:.0f}".format(utcoma3))
+
+
+
+
+
+#input()
+##################################################
+
+
+
+
+
+
 #hsaq=input()
 #work2=list(hsaq)
 #print(work2)
@@ -50,21 +154,21 @@ import re
 # printing result 
 #print("Summa talna er : " + str(res))
 ##################################################
-svar4=input("svar4: ")
+#svar4=input("svar4: ")
 
 
-int4 = int("".join(filter(str.isdigit, svar4)))
-print(int4)
+#int4 = int("".join(filter(str.isdigit, svar4)))
+#print(int4)
 
 
 # þeta verkefni er martröð
-sum_digit = 0
-for x in svar4:
-    if x.isdigit():
-        sum_digit += int(x)
+#sum_digit = 0
+#for x in svar4:
+ #   if x.isdigit():
+#        sum_digit += int(x)
 
 
-print("Summa talna er : ", sum_digit)
+#print("Summa talna er : ", sum_digit)
 
 
 
@@ -88,17 +192,17 @@ print("Summa talna er : ", sum_digit)
 
 
 #skiftir út
-res1=re.sub(r'[A-Z]', '_', svar4) 
-res2 = re.sub(r'[" "]', "?", res1)
+#res1=re.sub(r'[A-Z]', '_', svar4) 
+#res2 = re.sub(r'[" "]', "?", res1)
 
 
-utcoma=res1+res2
+#utcoma=res1+res2
 
-print(res2)
+#print(res2)
 
 
 
-input()
+#input()
 
 ##################################################
 #def draw_hangman(wrong,board):
@@ -327,6 +431,8 @@ else:
 
 ##################################################################################
 ##Liður 2 – Margföldunarruna
+
+
 control="ja"
 
 
@@ -356,7 +462,7 @@ while control == "ja":
             for x in lst:
                 product = product * x
             return product
-        print(multiplyNumbers(listrin))
+        print(multiplyNumbers(listrin),end="*")
     
      if talapart2<0:
         listrin.append(suma2)
@@ -367,17 +473,66 @@ while control == "ja":
             for x in lst:
                 product = product * x
             return product
-        print(multiplyNumbers(listrin))
+        print(multiplyNumbers(listrin),end="*")
+
+
+
 
 
 ##################################################################################
 ##Liður 3 – Snaran
+
+
 def draw_hangman(wrong,board):
      
     if wrong == 0:
         print(board)
-         
+
+
+
     elif wrong == 1:
+        print ("    ")
+        print ("    ")
+        print ("    ")
+        print ("    ")
+        print ("    ")
+        print ("   _ _")
+        print(board)
+
+
+    elif wrong == 2:
+        print ("     ")
+        print ("    ")
+        print ("    ")
+        print ("    ")
+        print ("    ")
+        print ("   _|_")
+        print(board)
+
+    elif wrong == 3:
+        print ("     ")
+        print ("    |")
+        print ("    |")
+        print ("    |")
+        print ("    |")
+        print ("   _|_")
+        print(board)
+
+
+
+    elif wrong == 4:
+        print ("     ______")
+        print ("    |")
+        print ("    |")
+        print ("    |")
+        print ("    |")
+        print ("   _|_")
+        print(board)
+
+
+
+
+    elif wrong == 5:
         print ("     ______")
         print ("    |/")
         print ("    |")
@@ -386,7 +541,7 @@ def draw_hangman(wrong,board):
         print ("   _|_")
         print(board)
  
-    elif wrong == 2:       
+    elif wrong == 6:       
         print ("     ______")
         print ("    |/")
         print ("    |   o  ")
@@ -394,7 +549,7 @@ def draw_hangman(wrong,board):
         print ("    |")
         print ("   _|_")
         print(board)   
-    elif wrong == 3:       
+    elif wrong == 7:       
         print ("     ______")
         print ("    |/")
         print ("    |   o  ")
@@ -402,7 +557,7 @@ def draw_hangman(wrong,board):
         print ("    |")
         print ("   _|_")
         print(board)   
-    elif wrong == 4:       
+    elif wrong == 8:       
         print ("     ______")
         print ("    |/")
         print ("    |  _o  ")
@@ -410,7 +565,7 @@ def draw_hangman(wrong,board):
         print ("    |")
         print ("   _|_")
         print(board) 
-    elif wrong == 5:       
+    elif wrong == 9:       
         print ("     ______")
         print ("    |/")
         print ("    |  _o ")
@@ -419,7 +574,7 @@ def draw_hangman(wrong,board):
         print ("    |")
         print ("    |")
         print(board) 
-    elif wrong == 6:       
+    elif wrong == 10:       
         print ("     ______")
         print ("    |/")
         print ("    |  _o_ ")
@@ -427,15 +582,16 @@ def draw_hangman(wrong,board):
         print ("    |  /")
         print ("   _|_")
         print(board)   
-    elif wrong == 7:       
+    elif wrong == 11:       
         print ("     ______")
         print ("    |/")
         print ("    |  _o_ ")
         print ("    |   |")
         print ("    |  / \\")
         print ("   _|_")
+        print(board)
          
-    elif wrong == 8:
+    elif wrong == 12:
         print ("     ______")
         print ("    |/  |")
         print ("    |  _o_ ")
@@ -443,7 +599,10 @@ def draw_hangman(wrong,board):
         print ("    |  / \\")
         print ("   _|_")
         print(board)
-        print("þú tapar")     
+        print("þú tapar orðið var ",answer)     
+         
+
+
          
 def get_letter(guesses):
  
@@ -500,8 +659,9 @@ for i in range(27):
     if board == answer:
         print("þú vinur")
         break
-    elif wrong == 8:
+    elif wrong == 12:
         break
+print("wrong ",wrong," sinnum")
 
 
 ##################################################################################
@@ -559,6 +719,37 @@ input()
 
 ##################################################################################
 ##Liður 5 – Marföldun almennra brota
+
+
+teljara1=int(input("Sláðu inn teljara fyrir brot 1 = "))
+nefnara1=int(input("Sláðu inn nefnara fyrir brot 1 = "))
+teljara2=int(input("Sláðu inn teljara fyrir brot 2 = "))
+nefnara2=int(input("Sláðu inn nefnara fyrir brot 2 = "))
+
+
+
+
+
+utcoma=teljara1/nefnara1 * teljara2/nefnara2 
+
+
+utcoma2=teljara1*teljara2
+
+utcoma3=nefnara1*nefnara2
+while utcoma2 %2==0 and utcoma3 %2==0 :
+    utcoma2=utcoma2/2
+    utcoma3=utcoma3/2
+    
+
+print(utcoma)
+
+#x % 2 == 0
+
+
+
+print(teljara1,"/",nefnara1,"*",teljara2,"/",nefnara2,"=","{:.2f}".format(utcoma),"=","{:.2f}".format(utcoma2),"/","{:.2f}".format(utcoma3))
+
+
 
 
 ##################################################################################
