@@ -19,61 +19,118 @@ import re
 #exp í exp eru tilraunir til að leisa verkefnin oft án comenta
 
 
+##################################################
+
+
+
+chek=0
+
+teningalisti=[]
+for s in range(100):
+    tenningar1=randint(1,6)
+    tenningar2=randint(1,6)
+    sumateninga=tenningar1+tenningar1
+    print("Kast teningur 1 = " ,tenningar1)
+    print("Kast teningur 2 = " ,tenningar2)
+    print("Samtals: ",sumateninga)
+    chek+=1
+    print("Þessi samtala verður sett í listann sem kast",chek )
+
+    teningalisti.append(sumateninga)
+
+print(teningalisti)
+
+
+
+
+
+
+
 
 
 
 
 ##################################################
 
-stjorn= "j"
-
-input("itu á eitkvað til að rúla")
-teningur1=randint(1,6)
-teningur2=randint(1,6)
-
-summateningur=0
-
-print(teningur1)
-utttcoma1 = teningur1+teningur2
 
 
-if utttcoma1== 7 or utttcoma1== 11:
-        print(" winur")
-        stjorn= "k"
 
-if utttcoma1== 2 or utttcoma1== 3 or utttcoma1== 12:
-        print(" tapar")
-        stjorn= "k"
-stjorn= "k"
+#nafn=input("gefðu nafn: ")
+#kin=input("gefðu kin kk eða kvk: ")
+#þingd=int(input("Hvað ertu þungur í kílóum: " ))
+#print(nafn,end="")
+#hæð=int(input(" sláðu inn hæð þína í metrum: "))
 
-summateningur=0
+#bmi=þingd/(hæð*hæð)
 
-if utttcoma1== 4 or utttcoma1== 5 or utttcoma1== 6 or utttcoma1== 8 or utttcoma1== 9 or utttcoma1== 10:
+#print("BMI stuðull þinn er" ,"{:.0f}".format(bmi))
+
+#print("Þú er of þungur miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
+
+
+
+
+
+
+
+
+
+##################################################
+
+#stjorn= "j"
+
+#input("itu á eitkvað til að rúla")
+#teningur1=randint(1,6)
+#teningur2=randint(1,6)
+
+#summateningur=0
+
+#print(teningur1)
+#utttcoma1 = teningur1+teningur2
+
+
+#if utttcoma1== 7 or utttcoma1== 11:
+#        print(" winur")
+#        stjorn= "k"
+
+#if utttcoma1== 2 or utttcoma1== 3 or utttcoma1== 12:
+#        print(" tapar")
+#        stjorn= "k"
+#stjorn= "k"
+
+#summateningur=0
+
+#summateningur+=utttcoma1
+
+#if utttcoma1== 4 or utttcoma1== 5 or utttcoma1== 6 or utttcoma1== 8 or utttcoma1== 9 or utttcoma1== 10:
         
-        summateningur+=utttcoma1
-        print(" þú ert að rena að fá ",summateningur)
+        #summateningur+=utttcoma1
+#        print(" þú ert að rena að fá ",summateningur)
 
 
-while stjorn== "j":
+#while stjorn== "j":
 
-    input("itu á eitkvað til að rúla")
+#    input("itu á eitkvað til að rúla")
 
-    teningur1=randint(1,6)
-    teningur2=randint(1,6)
+#    teningur1=randint(1,6)
+#    teningur2=randint(1,6)
 
 
     
 
-    print(teningur1)
-    utttcoma1 = teningur1+teningur2
+    #print(teningur1)
+#    utttcoma1 = teningur1+teningur2
 
-    if utttcoma1== 7 :
-        print(" tapar")
-        stjorn= "k"
 
-    if utttcoma1== summateningur :
-        print(" winur")
-        stjorn= "k"
+#    print("útcoma",utttcoma1)
+
+#    if utttcoma1== 7 :
+#        print(" tapar")
+#        stjorn= "k"
+
+#    if utttcoma1== summateningur :
+#        print(" winur")
+#        stjorn= "k"
 
 
 
@@ -747,7 +804,7 @@ print(utcoma)
 
 
 
-print(teljara1,"/",nefnara1,"*",teljara2,"/",nefnara2,"=","{:.2f}".format(utcoma),"=","{:.2f}".format(utcoma2),"/","{:.2f}".format(utcoma3))
+print(teljara1,"/",nefnara1,"*",teljara2,"/",nefnara2,"=","{:.0f}".format(utcoma),"=","{:.0f}".format(utcoma2),"/","{:.0f}".format(utcoma3))
 
 
 
@@ -756,8 +813,78 @@ print(teljara1,"/",nefnara1,"*",teljara2,"/",nefnara2,"=","{:.2f}".format(utcoma
 ##Liður 6 – Teningaspilið Craps
 
 
+stjorn= "j"
+
+input("itu á eitkvað til að rúla")
+teningur1=randint(1,6)
+teningur2=randint(1,6)
+
+summateningur=0
+
+#print(teningur1)
+utttcoma1 = teningur1+teningur2
+
+
+if utttcoma1== 7 or utttcoma1== 11:
+        print(" winur")
+        stjorn= "k"
+
+if utttcoma1== 2 or utttcoma1== 3 or utttcoma1== 12:
+        print(" tapar")
+        stjorn= "k"
+#stjorn= "k"
+
+summateningur=0
+
+summateningur+=utttcoma1
+
+if utttcoma1== 4 or utttcoma1== 5 or utttcoma1== 6 or utttcoma1== 8 or utttcoma1== 9 or utttcoma1== 10:
+        
+        #summateningur+=utttcoma1
+        print(" þú ert að rena að fá ",summateningur)
+
+
+while stjorn== "j":
+
+    input("itu á eitkvað til að rúla")
+
+    teningur1=randint(1,6)
+    teningur2=randint(1,6)
+
+
+    
+
+    #print(teningur1)
+    utttcoma1 = teningur1+teningur2
+
+
+    print("útcoma",utttcoma1)
+
+    if utttcoma1== 7 :
+        print(" tapar")
+        stjorn= "k"
+
+    if utttcoma1== summateningur :
+        print(" winur")
+        stjorn= "k"
+
+
+
+
+
 ##################################################################################
 ##Liður 7 – Þyngdarstuðull:
+nafn=input("gefðu nafn: ")
+kin=input("gefðu kin kk eða kvk: ")
+þingd=int(input("Hvað ertu þungur í kílóum: " ))
+print(nafn,end="")
+hæð=int(input(" sláðu inn hæð þína í metrum: "))
+
+bmi=þingd/(hæð*hæð)
+
+print("BMI stuðull þinn er" ,"{:.0f}".format(bmi))
+
+print("Þú er of þungur miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
 
 
 ##################################################################################
