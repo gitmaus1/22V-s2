@@ -977,7 +977,9 @@ for s in range(100):
 
     teningalisti.append(sumateninga)
 list_count = Counter(counlist)
-#print(list_count)
+
+
+#Hversu oft sama tala kom upp á báða teningana
 
 print( "sama tala kom upp á báða teningana: ",counttt," sinum")
 
@@ -990,7 +992,7 @@ print('{}  kom upp á báða teningana {} sinum'.format(xtree, list_count[xtree]
 print('{}  kom upp á báða teningana {} sinum'.format(xfour, list_count[xfour]))
 
 print('{}  kom upp á báða teningana {} sinum'.format(xfim, list_count[xfim]))
-
+#Hversu oft 6 kom upp á báða teningana
 print('{}  kom upp á báða teningana {} sinum'.format(xsix, list_count[xsix]))
 
 
@@ -998,10 +1000,14 @@ print(counttt)
 print(counlist)
 
 
-
+#Listinn óraðaður
 print(teningalisti)
-raðaður = sorted(teningalisti)                #list(set(teningalisti))
+
+#Listinn raðaður
+raðaður = sorted(teningalisti)                
 print(raðaður)
+
+#Heildarsumma listans
 Heildarsumma=sum(teningalisti)
 print(Heildarsumma)
 
