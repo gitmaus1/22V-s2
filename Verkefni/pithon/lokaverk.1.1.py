@@ -23,68 +23,68 @@ import re
 
 
 
-chek=0
+#chek=0
 
 
-counttt=0
+#counttt=0
 
-counlist=[]
+#counlist=[]
 
-teningalisti=[]
-
-
-xone=1
-xtwo=2
-xtree=3
-xfour=4
-xfim=5
-xsix=6
+#teningalisti=[]
 
 
-for s in range(100):
-    tenningar1=randint(1,6)
-    tenningar2=randint(1,6)
-    if tenningar1==tenningar2:
-        counttt+=1
-        counlist.append(tenningar1)
+#xone=1
+#xtwo=2
+#xtree=3
+#xfour=4
+#xfim=5
+#xsix=6
+
+
+#for s in range(100):
+ #   tenningar1=randint(1,6)
+  #  tenningar2=randint(1,6)
+   # if tenningar1==tenningar2:
+    #    counttt+=1
+     #   counlist.append(tenningar1)
         
 
-    sumateninga=tenningar1+tenningar1
-    print("Kast teningur 1 = " ,tenningar1)
-    print("Kast teningur 2 = " ,tenningar2)
-    print("Samtals: ",sumateninga)
-    chek+=1
-    print("Þessi samtala verður sett í listann sem kast",chek )
+#    sumateninga=tenningar1+tenningar1
+ #   print("Kast teningur 1 = " ,tenningar1)
+  #  print("Kast teningur 2 = " ,tenningar2)
+   # print("Samtals: ",sumateninga)
+    #chek+=1
+#    print("Þessi samtala verður sett í listann sem kast",chek )
 
-    teningalisti.append(sumateninga)
-list_count = Counter(counlist)
+#    teningalisti.append(sumateninga)
+#list_count = Counter(counlist)
 #print(list_count)
 
-print( "sama tala kom upp á báða teningana: ",counttt," sinum")
+#print( "sama tala kom upp á báða teningana: ",counttt," sinum")
 
-print('{}  kom upp á báða teningana {} sinum'.format(xone, list_count[xone]))
+#print('{}  kom upp á báða teningana {} sinum'.format(xone, list_count[xone]))
 
-print('{}  kom upp á báða teningana {} sinum'.format(xtwo, list_count[xtwo]))
+#print('{}  kom upp á báða teningana {} sinum'.format(xtwo, list_count[xtwo]))
 
-print('{}  kom upp á báða teningana {} sinum'.format(xtree, list_count[xtree]))
+#print('{}  kom upp á báða teningana {} sinum'.format(xtree, list_count[xtree]))
 
-print('{}  kom upp á báða teningana {} sinum'.format(xfour, list_count[xfour]))
+#print('{}  kom upp á báða teningana {} sinum'.format(xfour, list_count[xfour]))
 
-print('{}  kom upp á báða teningana {} sinum'.format(xfim, list_count[xfim]))
+#print('{}  kom upp á báða teningana {} sinum'.format(xfim, list_count[xfim]))
 
-print('{}  kom upp á báða teningana {} sinum'.format(xsix, list_count[xsix]))
-
-
-print(counttt)
-print(counlist)
+#print('{}  kom upp á báða teningana {} sinum'.format(xsix, list_count[xsix]))
 
 
+#print(counttt)
+#print(counlist)
 
-print(teningalisti)
-raðaður = sorted(teningalisti)                #list(set(teningalisti))
-print(raðaður)
-Heildarsumma=sum(teningalisti)
-print(Heildarsumma)
+
+
+#print(teningalisti)
+#raðaður = sorted(teningalisti)                #list(set(teningalisti))
+#print(raðaður)
+#Heildarsumma=sum(teningalisti)
+#print(Heildarsumma)
 
 
 
@@ -936,4 +936,68 @@ print("Þú er of þungur miðað við hæð", nafn, "(greinilega ekkert að mar
 ##################################################################################
 ##Liður 8 – Teningar
 
+
+
+chek=0
+
+
+counttt=0
+
+counlist=[]
+
+teningalisti=[]
+
+
+xone=1
+xtwo=2
+xtree=3
+xfour=4
+xfim=5
+xsix=6
+
+
+for s in range(100):
+    tenningar1=randint(1,6)
+    tenningar2=randint(1,6)
+    if tenningar1==tenningar2:
+        counttt+=1
+        counlist.append(tenningar1)
+        
+
+    sumateninga=tenningar1+tenningar1
+    print("Kast teningur 1 = " ,tenningar1)
+    print("Kast teningur 2 = " ,tenningar2)
+    print("Samtals: ",sumateninga)
+    chek+=1
+    print("Þessi samtala verður sett í listann sem kast",chek )
+
+    teningalisti.append(sumateninga)
+list_count = Counter(counlist)
+#print(list_count)
+
+print( "sama tala kom upp á báða teningana: ",counttt," sinum")
+
+print('{}  kom upp á báða teningana {} sinum'.format(xone, list_count[xone]))
+
+print('{}  kom upp á báða teningana {} sinum'.format(xtwo, list_count[xtwo]))
+
+print('{}  kom upp á báða teningana {} sinum'.format(xtree, list_count[xtree]))
+
+print('{}  kom upp á báða teningana {} sinum'.format(xfour, list_count[xfour]))
+
+print('{}  kom upp á báða teningana {} sinum'.format(xfim, list_count[xfim]))
+
+print('{}  kom upp á báða teningana {} sinum'.format(xsix, list_count[xsix]))
+
+
+print(counttt)
+print(counlist)
+
+
+
+print(teningalisti)
+raðaður = sorted(teningalisti)                #list(set(teningalisti))
+print(raðaður)
+Heildarsumma=sum(teningalisti)
+print(Heildarsumma)
 
