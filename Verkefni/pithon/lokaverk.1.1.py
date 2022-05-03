@@ -544,16 +544,18 @@ listrin=[]
 while control == "ja":
     suma2=-1
     suma=1
+
+    #clear tæmir lista
     listrin.clear()
     talapart2=int(input("Sláðu inn tölu: "))
     
 
     btrrbrbtebt=abs(talapart2)
 
-
+    #stopar prógram
     if talapart2==0:
         control="stop"
-
+    # ef + 
     for i in range(abs(talapart2)):
         
      if talapart2>0:
@@ -566,7 +568,7 @@ while control == "ja":
                 product = product * x
             return product
         print(multiplyNumbers(listrin),end="*")
-    
+    #ef -
      if talapart2<0:
         listrin.append(suma2)
         suma2-=1
@@ -587,7 +589,9 @@ while control == "ja":
 
 
 def draw_hangman(wrong,board):
-     
+
+
+   #her er heingimaður
     if wrong == 0:
         print(board)
 
@@ -776,7 +780,7 @@ int4 = int("".join(filter(str.isdigit, svar4)))
 print(int4)
 
 
-# þeta verkefni er martröð
+# þeta verkefni er martröð ég 
 sum_digit = 0
 for x in svar4:
     if x.isdigit():
