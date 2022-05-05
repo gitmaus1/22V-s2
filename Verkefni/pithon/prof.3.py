@@ -21,8 +21,8 @@ teljary=0
 svar = "já"
 while svar == "já" or svar == "Já":
     teljary += 1
-    print("Sláðu inn 1 fyrir Slembilisti:: 2 Gengur upp í 7 og 3:: 3 fyrir Orðlisti 4 fyrir Eins ")
-    print("Sláðu inn 5 til að stöðva keyrslu forrits:")
+    print("Sláðu inn 1 fyrir Oddatölur:: 2 fyrir Rnadomtöllur:: 3 fyrir Texti  ")
+    print("Sláðu inn 4 til að stöðva keyrslu forrits:")
     val = int(input(": "))
     print("valdir ",val)
 
@@ -64,7 +64,7 @@ while svar == "já" or svar == "Já":
                     listi3.append(tenningar1)
         summa=sum(listi1)
 
-        print("listi2",listi1)
+        print("listi1",listi1)
 
         print("suma er: ","{:.1f}".format(summa))
 
@@ -101,22 +101,27 @@ while svar == "já" or svar == "Já":
         print("það eru svona mörar tölur: ",talaaa)
 
 
+        orððð = len(val3.split())
+
+        print("það eru:  " + str(orððð) + " orð")
+
+
         print("Summa talna er : ", sum_digit)
 
-        res1 = re.sub(r'[A-m]', '#', val3) 
+        res1 = re.sub(r'["A-M"]', '#', val3) 
         res2 = re.sub(r'["0-9"]', "#", res1)
-        res3 = re.sub(r'["a-m "]', "#", res2)
-        res4 = re.sub(r'["o-z "]', "#", res3)
-        res4 = re.sub(r'["O-Z "]', "#", res3)
+        res3 = re.sub(r'["a-m"]', "#", res2)
+        res4 = re.sub(r'["o-z"]', "#", res3)
+        res4 = re.sub(r'["O-Z"]', "#", res3)
 
         res4 = re.sub(r'["qQwWrRtTyYuUoOpPðÐæsSzZxXvVþÞÆæ"]', "#", res3)
 
         res5 = re.sub(r'["!"#$%&/()=Ö_*?ÐPÆÞ:;>"]', "#", res4)
 
-        #qQwWrRtTyYuUoOpPðÐæsSzZxXvVnNþÞ
+        #qQwWrRtTyYuUoOpPðÐæsSzZxXvVnNþÞnN
         #utcoma=res1+res2
 
-        print(res4)
+        print(res5)
 
         input()
 
@@ -125,7 +130,7 @@ while svar == "já" or svar == "Já":
     elif(val==4):  
      svar = "nei"
     else:
-     print("willa") 
+     print("   ") 
 print("valmyndin var keyrð",teljary)
 
 
