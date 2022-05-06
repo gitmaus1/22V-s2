@@ -19,6 +19,18 @@ import re
 #exp í exp eru tilraunir til að leisa verkefnin oft án comenta
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ##################################################
 
 
@@ -505,6 +517,15 @@ import re
 #    print("Því miður eru ekki nógu margir skráðir, hætt er við ferðina.")
 ################################
 
+
+
+
+
+
+
+
+
+
 ##################################################################################
 ##Liður 1 – Bílar
 
@@ -934,7 +955,18 @@ bmi=þingd/(hæð*hæð)
 
 print("BMI stuðull þinn er" ,"{:.0f}".format(bmi))
 
-print("Þú er of þungur miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
+bmistit="{:.0f}".format(bmi)
+
+if bmi<18.5:
+
+
+    print("Þú er of ljetur miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
+elif bmi>=18.5 and bmi<=24.9:
+    print("Þú ert í kjörðíngd miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
+elif bmi>=25.0 and bmi<=29.9:
+    print("Þú er of þungur miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
+elif bmi>=30:
+    print("Þú ert alt of þungur miðað við hæð", nafn, "(greinilega mikið að marka þennan stuðul:-)")
 
 
 ##################################################################################
