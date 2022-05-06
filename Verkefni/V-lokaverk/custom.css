@@ -279,7 +279,7 @@ li.dropdown {
         right: 1em;
         
     }
-  /*  .df{display: none;}*/
+    .df{display: none;}
 }
 @media screen and (min-width:37.5em){
     .taki{
@@ -300,11 +300,11 @@ li.dropdown {
         bottom: 1em;
         right: 1em;
     }
-   /* .ef{display: none;}*/
+    .ef{display: none;}
 }
 @media screen and (min-width:49em){
   
-  /*.df{display: contents;}*/
+  .df{display: contents;}
   
 }
 
