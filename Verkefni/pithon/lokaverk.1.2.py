@@ -528,9 +528,9 @@ while svar == "já" or svar == "Já":
     print("Sláðu inn  4 fyrir Texti:: ")
     print("Sláðu inn  5 fyrir Margföldun almennra brota:: ")
     print("Sláðu inn  6 fyrir Teningaspilið Craps:: ")
-    print("Sláðu inn 7 fyrir Þyngdarstuðull:: ")
-    print("Sláðu inn 8 fyrir Teningar::")
-    print("Sláðu inn 9 til að stöðva keyrslu forrits:")
+    print("Sláðu inn  7 fyrir Þyngdarstuðull:: ")
+    print("Sláðu inn  8 fyrir Teningar::")
+    print("Sláðu inn  9 til að stöðva keyrslu forrits:")
     val = int(input(": "))
     print("valdir ",val)
 
@@ -752,7 +752,7 @@ while svar == "já" or svar == "Já":
 
                 
         def get_letter(guesses):
-        
+        #inputið
             ok = True
             while ok:    
                 try:
@@ -769,12 +769,12 @@ while svar == "já" or svar == "Já":
             return letter        
                 
         def set_up():
-        
+            #orðin
             answe = ["stack", "overflow", "rocks","pokemon", "hús","matur"]
             answer= random.choice(answe)
             
                                 
-            
+            #gerir litlu strigin
             board = ""
             for ch in answer:
                 if ch == " ":
@@ -783,7 +783,7 @@ while svar == "já" or svar == "Já":
                     board = board + "-"
             
             return answer,board   
-        
+        #chek rétt wrong
         def check_guess(answer,board,letter,wrong):
         
             if letter not in answer:
@@ -911,7 +911,7 @@ while svar == "já" or svar == "Já":
     if(val==6):
 
         stjorn= "j"
-
+#teningar
         input("itu á eitkvað til að rúla")
         teningur1=randint(1,6)
         teningur2=randint(1,6)
@@ -921,11 +921,11 @@ while svar == "já" or svar == "Já":
         #print(teningur1)
         utttcoma1 = teningur1+teningur2
 
-
+      #winur
         if utttcoma1== 7 or utttcoma1== 11:
                 print(" winur")
                 stjorn= "k"
-
+        #tapar
         if utttcoma1== 2 or utttcoma1== 3 or utttcoma1== 12:
                 print(" tapar")
                 stjorn= "k"
@@ -940,7 +940,7 @@ while svar == "já" or svar == "Já":
                 #summateningur+=utttcoma1
                 print(" þú ert að rena að fá ",summateningur)
 
-
+        #afgángur spills
         while stjorn== "j":
 
             input("itu á eitkvað til að rúla")
@@ -974,7 +974,7 @@ while svar == "já" or svar == "Já":
     if(val==7):
 
 
-
+        #input
         nafn=input("gefðu nafn: ")
         kin=input("gefðu kin kk eða kvk: ")
         þingd=int(input("Hvað ertu þungur í kílóum: " ))
@@ -1021,7 +1021,7 @@ while svar == "já" or svar == "Já":
         xfim=5
         xsix=6
 
-
+        #teninga kast
         for s in range(100):
             tenningar1=randint(1,6)
             tenningar2=randint(1,6)
