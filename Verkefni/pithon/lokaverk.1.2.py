@@ -522,9 +522,14 @@ teljary=0
 svar = "já"
 while svar == "já" or svar == "Já":
     teljary += 1
-    print("Sláðu inn 1 fyrir Bílar:: 2 fyrir Margföldunarruna:: 3 fyrir Snaran  ")
-    print("Sláðu inn 4 fyrir Texti:: 5 fyrir Margföldun almennra brota:: 6 fyrir Teningaspilið Craps  ")
-    print("Sláðu inn 7 fyrir Þyngdarstuðull:: 8 fyrir Teningar::")
+    print("Sláðu inn  1 fyrir Bílar:: ")
+    print("Sláðu inn  2 fyrir Margföldunarruna:: ")
+    print("Sláðu inn  3 fyrir Snaran:: ")
+    print("Sláðu inn  4 fyrir Texti:: ")
+    print("Sláðu inn  5 fyrir Margföldun almennra brota:: ")
+    print("Sláðu inn  6 fyrir Teningaspilið Craps:: ")
+    print("Sláðu inn 7 fyrir Þyngdarstuðull:: ")
+    print("Sláðu inn 8 fyrir Teningar::")
     print("Sláðu inn 9 til að stöðva keyrslu forrits:")
     val = int(input(": "))
     print("valdir ",val)
@@ -581,6 +586,7 @@ while svar == "já" or svar == "Já":
 
             #clear tæmir lista
             listrin.clear()
+            print("")
             talapart2=int(input("Sláðu inn tölu: "))
             
 
@@ -812,11 +818,11 @@ while svar == "já" or svar == "Já":
         svar4=input("svar4: ")
 
 
-        int4 = int("".join(filter(str.isdigit, svar4)))
-        print(int4)
+        #int4 = int("".join(filter(str.isdigit, svar4)))
+        #print(int4)
 
 
-        # þeta verkefni er martröð ég 
+        # telur sumu
         sum_digit = 0
         for x in svar4:
             if x.isdigit():
@@ -832,11 +838,14 @@ while svar == "já" or svar == "Já":
         #skiftir út
         res1=re.sub(r'[A-Z]', '_', svar4) 
         res2 = re.sub(r'[" "]', "?", res1)
+        res3 = re.sub(r'["ÁÚÉÝÍÓ"]', "_", res2)
+
+        
 
 
-        utcoma=res1+res2
+        #utcoma=res1+res2
 
-        print(res2)
+        print(res3)
 
 
 
@@ -846,7 +855,7 @@ while svar == "já" or svar == "Já":
 ##################################################################################
 ##Liður 5 – Marföldun almennra brota
     if(val==5):
-
+        #input
         teljara1=int(input("Sláðu inn teljara fyrir brot 1 = "))
         nefnara1=int(input("Sláðu inn nefnara fyrir brot 1 = "))
         teljara2=int(input("Sláðu inn teljara fyrir brot 2 = "))
@@ -855,25 +864,44 @@ while svar == "já" or svar == "Já":
 
 
 
-
+        #útreikningar
         utcoma=teljara1/nefnara1 * teljara2/nefnara2 
 
 
         utcoma2=teljara1*teljara2
 
         utcoma3=nefnara1*nefnara2
+        #stytir
         while utcoma2 %2==0 and utcoma3 %2==0 :
             utcoma2=utcoma2/2
             utcoma3=utcoma3/2
+        while utcoma2 %3==0 and utcoma3 %3==0 :
+           utcoma2=utcoma2/3
+           utcoma3=utcoma3/3
+        while utcoma2 %5==0 and utcoma3 %5==0 :
+           utcoma2=utcoma2/5
+           utcoma3=utcoma3/5
+        stitir=4
+        telja="e"
+        while telja == "e":
             
+            while utcoma2 %stitir==0 and utcoma3 %stitir==0 :
+            
+                utcoma2=utcoma2/stitir
+                utcoma3=utcoma3/stitir
+           
+            if stitir ==10000:
+                telja="n"
+            
+            stitir+=1
 
-        print(utcoma)
+        #print(utcoma)
 
         #x % 2 == 0
 
 
-
-        print(teljara1,"/",nefnara1,"*",teljara2,"/",nefnara2,"=","{:.0f}".format(utcoma),"=","{:.0f}".format(utcoma2),"/","{:.0f}".format(utcoma3))
+        #útcoma
+        print(teljara1,"/",nefnara1,"*",teljara2,"/",nefnara2,"=","{:.0f}".format(utcoma2),"/","{:.0f}".format(utcoma3))
 
 
 
@@ -961,7 +989,7 @@ while svar == "já" or svar == "Já":
 
         if bmi<18.5:
 
-
+        #bmi útcomur
             print("Þú er of ljetur miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
         elif bmi>=18.5 and bmi<=24.9:
             print("Þú ert í kjörðíngd miðað við hæð", nafn, "(greinilega ekkert að marka þennan stuðul:-)")
