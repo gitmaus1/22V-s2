@@ -267,7 +267,10 @@ li.dropdown {
 
 
 
-
+img {
+  max-width: 100%;
+  height: auto;
+}
  /*############################################################################3*/
 @media screen and (min-width:3px){
     .taki{
