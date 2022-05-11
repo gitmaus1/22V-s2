@@ -177,8 +177,12 @@ button{
  a[href$=".mp4"] {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/video.png");
 }
-
-
+a[href$=".png"] {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/image.png");
+}
+a[href$=".svg"] {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/image.png");
+}
 
 
 
